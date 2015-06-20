@@ -3,3 +3,24 @@ name:
   font: Sans Bold 72
   y: 75
   width: 825
+art:
+  x: 150
+  y: 275
+  width: 525
+  height: 575
+description:
+  x: 75
+  y: 850
+  width: 675
+  height: 150
+  font: Sans 18
+  align: center
+  valign: middle
+  hint: blue
+snark:
+  extends: description
+  font: Sans Italic 14
+  y: 1000
+  hint: red
+  valign: bottom
+  height: 50

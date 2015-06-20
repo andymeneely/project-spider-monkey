@@ -1,3 +1,5 @@
+require 'game_icons'
+
 # Generates a JSON output from deck for easy Git tracking.
 def save_json(cards: 1, deck: {}, file: 'deck.json')
   h = {}
@@ -23,4 +25,12 @@ def explode_quantities(raw_deck)
     end
   end
   return deck
+end
+
+def prep_game_icons(game_icons)
+  cache = {}
+  game_icons.each do |name|
+    cache[name] ||= GameIcons.get(name).recolor(fg: '#000', bg: '#fff').string
+  end
+  cache
 end
