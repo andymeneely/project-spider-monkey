@@ -4,7 +4,6 @@ require 'game_icons'
 require_relative 'squib_helpers'
 
 deck = Squib.xlsx file: 'data/deck.xlsx'
-pp deck
 deck = explode_quantities(deck)
 
 game_icon_cache = prep_game_icons(deck['GameIcon'])
