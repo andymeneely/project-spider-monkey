@@ -3,20 +3,47 @@ name:
   font: Sans Bold 72
   y: 75
   width: 825
+
+subtitle:
+  y: 185
+  align: center
+  font: Sans Bold 55
+cost1amt:
+  extends: subtitle
+  x: 75
+  width: 75
+  height: 100
+cost1type:
+  extends: subtitle
+  x: 150
+  width: 100
+  height: 100
+cost2amt:
+  extends: cost1amt
+  x: += 175
+cost2type:
+  extends: cost1type
+  x: += 175
+vp:
+  extends: subtitle
+  x: 625
+  width: 100
+  height: 100
+  color: white
+
 art:
   x: 150
-  y: 275
-  width: 525
-  height: 575
+  y: 300
+  width: 500
+  height: 500
 description:
   x: 75
   y: 850
   width: 675
   height: 150
-  font: Sans 18
+  font: Sans 25
   align: center
   valign: middle
-  hint: blue
 snark:
   extends: description
   font: Sans Italic 14
