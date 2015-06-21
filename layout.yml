@@ -48,6 +48,13 @@ snark:
   extends: description
   font: Sans Italic 14
   y: 1000
-  hint: red
   valign: bottom
   height: 50
+cut_line:
+  x: 37
+  y: 37
+  width: 750
+  height: 1050
+  radius: 0
+  stroke_width: 3.0
+  stroke_color: black

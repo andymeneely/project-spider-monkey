@@ -12,6 +12,138 @@
     "Snark": "Building must start somewhere."
   },
   "1": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "2": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "3": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "4": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "5": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "6": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "7": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "8": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "9": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "10": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "11": {
+    "Name": "Wood",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "planks",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "12": {
     "Name": "Steel",
     "Qty": "12",
     "Cost1Amt": null,
@@ -23,7 +155,139 @@
     "Description": null,
     "Snark": "Building must start somewhere."
   },
-  "2": {
+  "13": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "14": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "15": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "16": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "17": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "18": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "19": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "20": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "21": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "22": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "23": {
+    "Name": "Steel",
+    "Qty": "12",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "nails",
+    "Description": null,
+    "Snark": "Building must start somewhere."
+  },
+  "24": {
     "Name": "Stone",
     "Qty": "10",
     "Cost1Amt": null,
@@ -35,7 +299,115 @@
     "Description": null,
     "Snark": "Build it strong, build it right."
   },
-  "3": {
+  "25": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "26": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "27": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "28": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "29": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "30": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "31": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "32": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "33": {
+    "Name": "Stone",
+    "Qty": "10",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "stone-block",
+    "Description": null,
+    "Snark": "Build it strong, build it right."
+  },
+  "34": {
     "Name": "Gold",
     "Qty": "6",
     "Cost1Amt": null,
@@ -47,7 +419,67 @@
     "Description": null,
     "Snark": "The power of purchase."
   },
-  "4": {
+  "35": {
+    "Name": "Gold",
+    "Qty": "6",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "gold-bar",
+    "Description": null,
+    "Snark": "The power of purchase."
+  },
+  "36": {
+    "Name": "Gold",
+    "Qty": "6",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "gold-bar",
+    "Description": null,
+    "Snark": "The power of purchase."
+  },
+  "37": {
+    "Name": "Gold",
+    "Qty": "6",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "gold-bar",
+    "Description": null,
+    "Snark": "The power of purchase."
+  },
+  "38": {
+    "Name": "Gold",
+    "Qty": "6",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "gold-bar",
+    "Description": null,
+    "Snark": "The power of purchase."
+  },
+  "39": {
+    "Name": "Gold",
+    "Qty": "6",
+    "Cost1Amt": null,
+    "Cost1Type": null,
+    "Cost2Amt": null,
+    "Cost2Type": null,
+    "VP": "0",
+    "GameIcon": "gold-bar",
+    "Description": null,
+    "Snark": "The power of purchase."
+  },
+  "40": {
     "Name": "Mining Pick",
     "Qty": "1",
     "Cost1Amt": "1",
@@ -59,7 +491,7 @@
     "Description": "Two free Stone may be used in a Make",
     "Snark": "We'll strike gold one of these days!"
   },
-  "5": {
+  "41": {
     "Name": "Wood Axe",
     "Qty": "1",
     "Cost1Amt": "1",
@@ -71,7 +503,7 @@
     "Description": "Three free Wood may be used in a Make",
     "Snark": "And my axe."
   },
-  "6": {
+  "42": {
     "Name": "Gold Merchant",
     "Qty": "1",
     "Cost1Amt": "1",
@@ -83,7 +515,7 @@
     "Description": "Two free Gold may be used in a Make",
     "Snark": "Shiny things! I like shiny things."
   },
-  "7": {
+  "43": {
     "Name": "Smelter",
     "Qty": "1",
     "Cost1Amt": "1",
@@ -95,7 +527,7 @@
     "Description": "Three free Steel may be used in a Make",
     "Snark": "How does smelting actually CREATE things?"
   },
-  "8": {
+  "44": {
     "Name": "Wheelbarrow",
     "Qty": "1",
     "Cost1Amt": "2",
@@ -107,7 +539,7 @@
     "Description": "You may keep 2 Resources until the next turn (these do not count against your limit of 5)",
     "Snark": null
   },
-  "9": {
+  "45": {
     "Name": "Spade",
     "Qty": "1",
     "Cost1Amt": "1",
@@ -119,7 +551,7 @@
     "Description": "Draw one two cards from your deck.",
     "Snark": "Most people just call this a shovel."
   },
-  "10": {
+  "46": {
     "Name": "Magnet",
     "Qty": "1",
     "Cost1Amt": "1",
@@ -131,19 +563,19 @@
     "Description": "Take 2 Steel from the Trash, if available.",
     "Snark": null
   },
-  "11": {
-    "Name": "Lumberjack",
+  "47": {
+    "Name": "Ladder",
     "Qty": "1",
     "Cost1Amt": "1",
-    "Cost1Type": "Stone",
+    "Cost1Type": "Wood",
     "Cost2Amt": null,
     "Cost2Type": null,
-    "VP": "2",
-    "GameIcon": "axe-in-stump",
+    "VP": "1",
+    "GameIcon": "hole-ladder",
     "Description": "Draw a card from your deck, if it's Wood, draw two more cards.",
     "Snark": null
   },
-  "12": {
+  "48": {
     "Name": "Spear",
     "Qty": "1",
     "Cost1Amt": "1",
@@ -155,7 +587,7 @@
     "Description": "Two free Stone may be used in a Make",
     "Snark": null
   },
-  "13": {
+  "49": {
     "Name": "Rockslide",
     "Qty": "1",
     "Cost1Amt": "1",
@@ -167,7 +599,7 @@
     "Description": "Take one Stone from the Trash, if available.",
     "Snark": null
   },
-  "14": {
+  "50": {
     "Name": "Throne",
     "Qty": "1",
     "Cost1Amt": "2",
@@ -179,7 +611,7 @@
     "Description": null,
     "Snark": null
   },
-  "15": {
+  "51": {
     "Name": "Stone Tablet",
     "Qty": "1",
     "Cost1Amt": "3",
@@ -191,7 +623,7 @@
     "Description": null,
     "Snark": null
   },
-  "16": {
+  "52": {
     "Name": "Anvil",
     "Qty": "1",
     "Cost1Amt": "3",
@@ -203,7 +635,7 @@
     "Description": null,
     "Snark": null
   },
-  "17": {
+  "53": {
     "Name": "Baseball Bat",
     "Qty": "1",
     "Cost1Amt": "3",
@@ -215,7 +647,7 @@
     "Description": null,
     "Snark": null
   },
-  "18": {
+  "54": {
     "Name": "Crossbow",
     "Qty": "1",
     "Cost1Amt": "2",
@@ -227,7 +659,7 @@
     "Description": null,
     "Snark": null
   },
-  "19": {
+  "55": {
     "Name": "Super Spade",
     "Qty": "1",
     "Cost1Amt": "2",
@@ -239,7 +671,7 @@
     "Description": "Draw two cards from your deck.",
     "Snark": null
   },
-  "20": {
+  "56": {
     "Name": "Barrel",
     "Qty": "1",
     "Cost1Amt": "4",
@@ -251,7 +683,7 @@
     "Description": "You may keep 3 Resources until the next turn (these do not count against your limit of 5).",
     "Snark": null
   },
-  "21": {
+  "57": {
     "Name": "War Chest",
     "Qty": "1",
     "Cost1Amt": "3",
@@ -263,7 +695,7 @@
     "Description": "Draw 1 card and take 2 Gold from the Trash (if available).",
     "Snark": null
   },
-  "22": {
+  "58": {
     "Name": "Robot Golem",
     "Qty": "1",
     "Cost1Amt": "7",
@@ -275,7 +707,7 @@
     "Description": "Steel may be used for any Resource",
     "Snark": null
   },
-  "23": {
+  "59": {
     "Name": "Chalice",
     "Qty": "1",
     "Cost1Amt": "6",
@@ -287,7 +719,7 @@
     "Description": "Gold may be used for any Three Resources.",
     "Snark": null
   },
-  "24": {
+  "60": {
     "Name": "Medieval Turret",
     "Qty": "1",
     "Cost1Amt": "6",
@@ -299,7 +731,7 @@
     "Description": "Stone may be used for any Two Resources.",
     "Snark": null
   },
-  "25": {
+  "61": {
     "Name": "Galleon",
     "Qty": "1",
     "Cost1Amt": "7",

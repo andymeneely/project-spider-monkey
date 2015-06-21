@@ -4,7 +4,7 @@ require 'game_icons'
 require_relative 'squib_helpers'
 
 deck = Squib.xlsx file: 'data/deck.xlsx'
-# deck = explode_quantities(deck)
+deck = explode_quantities(deck)
 
 game_icon_cache = prep_game_icons(deck['GameIcon'])
 names_to_game_icons = {
@@ -15,7 +15,7 @@ names_to_game_icons = {
 }
 
 Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
-
+  background color: :white
   svg layout: 'vp', file: 'vp.svg'
 
   %w(Name Snark VP Cost1Amt Cost2Amt).each do |field|
@@ -38,4 +38,6 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   # png file: 'tgc-proof-overlay.png'
   save format: :png
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
+  rect layout: 'cut_line'
+  save_pdf file: 'deck.pdf', trim: 37.5
 end
