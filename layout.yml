@@ -1,8 +1,9 @@
 name:
   align: center
   font: Sans Bold 64
+  x: 75
   y: 75
-  width: 825
+  width: 675
 
 wood_amt:
   y: 185
@@ -19,48 +20,48 @@ wood_icon:
 
 steel_amt:
   extends: wood_amt
-  y: += 100
+  y: += 135
 steel_icon:
   extends: wood_icon
-  y: += 100
+  y: += 135
 
 stone_amt:
   extends: steel_amt
-  y: += 100
+  y: += 135
 stone_icon:
   extends: steel_icon
-  y: += 100
+  y: += 135
 
 gold_amt:
   extends: stone_amt
-  y: += 100
+  y: += 135
 gold_icon:
   extends: stone_icon
-  y: += 100
+  y: += 135
 
 vp:
   extends: gold_amt
-  y: += 100
+  y: += 155
   width: 100
   height: 100
   color: white
 
 art:
-  x: 250
-  y: 200
-  width: 400
-  height: 400
+  x: 300
+  y: 225
+  width: 450
+  height: 450
 description:
   x: 75
   y: 850
   width: 675
   height: 150
-  font: Sans 25
+  font: Sans 36
   align: center
   valign: middle
 snark:
   extends: description
-  font: Sans Italic 14
+  font: Sans Italic 16
   y: 1000
   valign: bottom
   height: 50
@@ -72,3 +73,7 @@ cut_line:
   radius: 0
   stroke_width: 3.0
   stroke_color: black
+outline:
+  extends: cut_line
+  radius: 25
+  stroke_width: 6.0

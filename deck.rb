@@ -18,6 +18,7 @@ names_to_game_icons = {
 }
 
 Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
+  hint text: 'red'
   background color: :white
   svg layout: 'vp', file: 'vp.svg'
 
@@ -32,18 +33,23 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   end
 
   text(str: deck['Description'], layout: 'description') do |embed|
-    embed.svg key: 'Wood', data: game_icon_cache['planks']
-    embed.svg key: 'Steel', data: game_icon_cache['nails']
-    embed.svg key: 'Stone', data: game_icon_cache['stone-block']
-    embed.svg key: 'Gold', data: game_icon_cache['gold-bar']
+    embed.svg key: 'Wood', data: game_icon_cache['planks'], dy: 15
+    embed.svg key: 'Steel', data: game_icon_cache['nails'], dy: 15
+    embed.svg key: 'Stone', data: game_icon_cache['stone-block'], dy: 15
+    embed.svg key: 'Gold', data: game_icon_cache['gold-bar'], dy: 15
   end
+
+  rect layout: 'art', stroke_color: 'red'
 
   svg layout: 'art', data: (deck['GameIcon'].collect { |name| game_icon_cache[name] })
 
   # png file: 'tgc-proof-overlay.png'
   save format: :png
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
-  rect layout: 'cut_line'
-  hand range: (40..45), trim: 37.5
-  save_pdf file: 'deck.pdf', trim: 37.5
+
+  # rect layout: 'cut_line'
+  # save_pdf file: 'deck.pdf', trim: 37.5
+
+  rect layout: 'outline'
+  hand range: (40..45), trim: 37.5, trim_radius: 25
 end
