@@ -28,10 +28,10 @@ def explode_quantities(raw_deck)
   return deck
 end
 
-def prep_game_icons(game_icons)
+def prep_game_icons(game_icons, fg, bg)
   cache = {}
   game_icons.each do |name|
-    cache[name] ||= GameIcons.get(name).recolor(fg: '#000', bg: '#fffffff').string
+    cache[name] ||= GameIcons.get(name).recolor(fg: fg, bg: bg).string
   end
   cache
 end
