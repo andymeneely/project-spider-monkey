@@ -11,7 +11,7 @@ deck = explode_quantities(deck)
 
 game_icon_cache = prep_game_icons(deck['GameIcon'], fg, bg)
 names_to_game_icons = {
-  'Wood'  => 'planks',
+  'Wood'  => 'log',
   'Steel' => 'nails',
   'Stone' => 'stone-block',
   'Gold'  => 'gold-bar'
@@ -32,7 +32,7 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   end
 
   text(str: deck['Description'], layout: 'description') do |embed|
-    embed.svg key: 'Wood', data: game_icon_cache['planks'], dy: 15
+    embed.svg key: 'Wood', data: game_icon_cache['log'], dy: 15
     embed.svg key: 'Steel', data: game_icon_cache['nails'], dy: 15
     embed.svg key: 'Stone', data: game_icon_cache['stone-block'], dy: 15
     embed.svg key: 'Gold', data: game_icon_cache['gold-bar'], dy: 15
