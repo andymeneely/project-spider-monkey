@@ -4,7 +4,13 @@ require 'game_icons'
 require_relative 'squib_helpers'
 
 fg = '#000' #black
-bg = '#fff' #white
+bg = '#fff' #black
+
+fg = '#552C00' #black
+bg = '#FFD6AA' #white
+
+fg = '#003333'
+bg = '#D46A6A'
 
 deck = Squib.xlsx file: 'data/deck.xlsx'
 deck = explode_quantities(deck)
@@ -18,7 +24,8 @@ names_to_game_icons = {
 }
 
 Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
-  background color: :white
+  background color: bg
+
   svg layout: 'vp', file: 'vp.svg'
 
   %w(Name Snark VP).each do |field|
@@ -40,12 +47,15 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
 
   svg layout: 'art', data: (deck['GameIcon'].collect { |name| game_icon_cache[name] })
 
-  # png file: 'tgc-proof-overlay.png'
-  save format: :png
-  save_json cards: @cards.size, deck: deck, file: "data/deck.json"
+  png file: 'overlay.png', blend: 'overlay', alpha: 0.5
 
-  rect layout: 'cut_line'
-  save_pdf file: 'deck.pdf', trim: 37.5
+  # png file: 'tgc-proof-overlay.png'
+  # save format: :png
+  save format: :png, range: 40
+  # save_json cards: @cards.size, deck: deck, file: "data/deck.json"
+
+  # rect layout: 'cut_line'
+  # save_pdf file: 'deck.pdf', trim: 37.5
 
   rect layout: 'outline'
   hand range: (40..45), trim: 37.5, trim_radius: 25
