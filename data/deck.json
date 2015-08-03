@@ -112,7 +112,7 @@
     "Snark": null
   },
   "8": {
-    "Name": "Gears",
+    "Name": "Rusted Gears",
     "Qty": "2",
     "Wood": null,
     "Steel": "3",
@@ -126,7 +126,7 @@
     "Snark": null
   },
   "9": {
-    "Name": "Gears",
+    "Name": "Rusted Gears",
     "Qty": "2",
     "Wood": null,
     "Steel": "3",
@@ -468,8 +468,8 @@
     "Steel": "1",
     "Stone": null,
     "Gold": "1",
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "boots",
     "Type": "convert",
     "Description": "Up to two Stone may be used for any resource",
@@ -482,8 +482,8 @@
     "Steel": "1",
     "Stone": null,
     "Gold": "1",
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "bolt-saw",
     "Type": "convert",
     "Description": "Up to two Wood may be used for any resource",
@@ -496,8 +496,8 @@
     "Steel": null,
     "Stone": null,
     "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "hole-ladder",
     "Type": "draw",
     "Description": "Draw a card from your deck, if it contains  Wood, draw one more card.",
@@ -510,8 +510,8 @@
     "Steel": "2",
     "Stone": null,
     "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "magnet",
     "Type": "draw",
     "Description": "Draw a card from your deck, if it's contains Steel, draw one more card.",
@@ -524,8 +524,8 @@
     "Steel": null,
     "Stone": "1",
     "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "spade",
     "Type": "draw",
     "Description": "Draw one card from your deck.",
@@ -538,8 +538,8 @@
     "Steel": "1",
     "Stone": null,
     "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "spade",
     "Type": "draw",
     "Description": "Draw one card from your deck.",
@@ -552,8 +552,8 @@
     "Steel": "1",
     "Stone": "1",
     "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "spade",
     "Type": "draw",
     "Description": "Draw one card from your deck.",
@@ -580,8 +580,8 @@
     "Steel": null,
     "Stone": null,
     "Gold": "2",
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "gem-pendant",
     "Type": "gold path",
     "Description": "-2 Gold per turn",
@@ -636,8 +636,8 @@
     "Steel": null,
     "Stone": null,
     "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
+    "VP": "2",
+    "VPAdj": "-1",
     "GameIcon": "wheelbarrow",
     "Type": "keep",
     "Description": "You may keep 2 Resources until the next turn",
@@ -658,6 +658,20 @@
     "Snark": null
   },
   "47": {
+    "Name": "Obelisk",
+    "Qty": "1",
+    "Wood": "2",
+    "Steel": "2",
+    "Stone": "1",
+    "Gold": "1",
+    "VP": "9",
+    "VPAdj": null,
+    "GameIcon": "obelisk",
+    "Type": "small deck",
+    "Description": "At game end, 4 VP if your deck has 10 or fewer cards.",
+    "Snark": null
+  },
+  "48": {
     "Name": "Screwdriver",
     "Qty": "1",
     "Wood": "2",
@@ -671,7 +685,7 @@
     "Description": "-2 Steel per turn",
     "Snark": null
   },
-  "48": {
+  "49": {
     "Name": "Smelter",
     "Qty": "1",
     "Wood": null,
@@ -684,20 +698,6 @@
     "Type": "steel path",
     "Description": "-3 Steel per turn",
     "Snark": "How does smelting actually CREATE things?"
-  },
-  "49": {
-    "Name": "Chains",
-    "Qty": "2",
-    "Wood": null,
-    "Steel": "2",
-    "Stone": null,
-    "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
-    "GameIcon": "wavy-chains",
-    "Type": "steel path",
-    "Description": null,
-    "Snark": null
   },
   "50": {
     "Name": "Chains",
@@ -714,6 +714,20 @@
     "Snark": null
   },
   "51": {
+    "Name": "Chains",
+    "Qty": "2",
+    "Wood": null,
+    "Steel": "2",
+    "Stone": null,
+    "Gold": null,
+    "VP": "3",
+    "VPAdj": null,
+    "GameIcon": "wavy-chains",
+    "Type": "steel path",
+    "Description": null,
+    "Snark": null
+  },
+  "52": {
     "Name": "Anvil",
     "Qty": "1",
     "Wood": null,
@@ -727,7 +741,7 @@
     "Description": null,
     "Snark": null
   },
-  "52": {
+  "53": {
     "Name": "Robot Golem",
     "Qty": "1",
     "Wood": null,
@@ -741,35 +755,7 @@
     "Description": "-3 Steel on each Make.",
     "Snark": null
   },
-  "53": {
-    "Name": "Rockslide",
-    "Qty": "1",
-    "Wood": null,
-    "Steel": "3",
-    "Stone": null,
-    "Gold": null,
-    "VP": "4",
-    "VPAdj": null,
-    "GameIcon": "falling-rocks",
-    "Type": "stone path",
-    "Description": "-1 Stone per turn",
-    "Snark": null
-  },
   "54": {
-    "Name": "Mining Pick",
-    "Qty": "1",
-    "Wood": "3",
-    "Steel": null,
-    "Stone": null,
-    "Gold": null,
-    "VP": "4",
-    "VPAdj": null,
-    "GameIcon": "mining",
-    "Type": "stone path",
-    "Description": "-1 Stone per turn",
-    "Snark": "We'll strike gold one of these days!"
-  },
-  "55": {
     "Name": "Spear",
     "Qty": "1",
     "Wood": "1",
@@ -783,19 +769,33 @@
     "Description": "-1 Stone per turn",
     "Snark": null
   },
-  "56": {
-    "Name": "Stone Tablet",
-    "Qty": "2",
+  "55": {
+    "Name": "Rockslide",
+    "Qty": "1",
     "Wood": null,
-    "Steel": null,
-    "Stone": "3",
+    "Steel": "3",
+    "Stone": null,
     "Gold": null,
-    "VP": "5",
+    "VP": "4",
     "VPAdj": null,
-    "GameIcon": "stone-tablet",
+    "GameIcon": "falling-rocks",
     "Type": "stone path",
-    "Description": null,
+    "Description": "-1 Stone per turn",
     "Snark": null
+  },
+  "56": {
+    "Name": "Mining Pick",
+    "Qty": "1",
+    "Wood": "3",
+    "Steel": null,
+    "Stone": null,
+    "Gold": null,
+    "VP": "4",
+    "VPAdj": null,
+    "GameIcon": "mining",
+    "Type": "stone path",
+    "Description": "-1 Stone per turn",
+    "Snark": "We'll strike gold one of these days!"
   },
   "57": {
     "Name": "Stone Tablet",
@@ -812,6 +812,20 @@
     "Snark": null
   },
   "58": {
+    "Name": "Stone Tablet",
+    "Qty": "2",
+    "Wood": null,
+    "Steel": null,
+    "Stone": "3",
+    "Gold": null,
+    "VP": "5",
+    "VPAdj": null,
+    "GameIcon": "stone-tablet",
+    "Type": "stone path",
+    "Description": null,
+    "Snark": null
+  },
+  "59": {
     "Name": "Medieval Turret",
     "Qty": "1",
     "Wood": null,
@@ -825,7 +839,7 @@
     "Description": "1 Stone may be used for 1 of any Resource per turn",
     "Snark": null
   },
-  "59": {
+  "60": {
     "Name": "Windmill",
     "Qty": "1",
     "Wood": "2",
@@ -836,10 +850,10 @@
     "VPAdj": null,
     "GameIcon": "windmill",
     "Type": "swap",
-    "Description": "Upon purchase, you may reorder the cards on one row.",
+    "Description": "Upon purchase, you may reorder the cards on one row or column.",
     "Snark": null
   },
-  "60": {
+  "61": {
     "Name": "Crossbow",
     "Qty": "1",
     "Wood": "1",
@@ -850,10 +864,10 @@
     "VPAdj": null,
     "GameIcon": "crossbow",
     "Type": "swap",
-    "Description": "Upon purchase, you may reorder the cards on one row.",
+    "Description": "Upon purchase, you may reorder the cards on one row or column.",
     "Snark": null
   },
-  "61": {
+  "62": {
     "Name": "Wood Axe",
     "Qty": "1",
     "Wood": null,
@@ -867,7 +881,7 @@
     "Description": "-2 Wood per turn",
     "Snark": "And my axe."
   },
-  "62": {
+  "63": {
     "Name": "Baseball Bat",
     "Qty": "1",
     "Wood": "3",
@@ -881,7 +895,7 @@
     "Description": null,
     "Snark": null
   },
-  "63": {
+  "64": {
     "Name": "Crate",
     "Qty": "1",
     "Wood": "4",
@@ -895,7 +909,7 @@
     "Description": null,
     "Snark": null
   },
-  "64": {
+  "65": {
     "Name": "Galleon",
     "Qty": "1",
     "Wood": "7",
@@ -906,21 +920,7 @@
     "VPAdj": null,
     "GameIcon": "galleon",
     "Type": "wood path",
-    "Description": "At game end, you may scrap two cards (not this one) and gain 2 VP per Wood.",
-    "Snark": null
-  },
-  "65": {
-    "Name": "Obelisk",
-    "Qty": "1",
-    "Wood": "2",
-    "Steel": "2",
-    "Stone": "1",
-    "Gold": "1",
-    "VP": "9",
-    "VPAdj": null,
-    "GameIcon": "obelisk",
-    "Type": "small deck",
-    "Description": "At game end, 4 VP if your deck has 10 or fewer cards.",
+    "Description": "At game end, 1 VP per Wood in any cards except this one.",
     "Snark": null
   }
 }
