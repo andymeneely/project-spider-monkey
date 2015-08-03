@@ -42,6 +42,7 @@ gold_icon:
 vp:
   extends: gold_amt
   y: += 155
+  font_size: 48
   width: 100
   height: 100
   color: white
@@ -56,15 +57,16 @@ description:
   y: 850
   width: 675
   height: 150
-  font: Sans 36
+  font: Sans 28
   align: center
   valign: middle
 snark:
   extends: description
-  font: Sans Italic 16
+  font: Sans Italic 18
   y: 1000
   valign: bottom
   height: 50
+  hint: white
 cut_line:
   x: 37
   y: 37

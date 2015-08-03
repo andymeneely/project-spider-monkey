@@ -4,13 +4,13 @@ require 'game_icons'
 require_relative 'squib_helpers'
 
 fg = '#000' #black
-bg = '#fff' #black
+bg = '#fff' #white
 
-fg = '#552C00' #black
-bg = '#FFD6AA' #white
+# fg = '#552C00'
+# bg = '#FFD6AA'
 
-fg = '#003333'
-bg = '#D46A6A'
+# fg = '#003333'
+# bg = '#D46A6A'
 
 deck = Squib.xlsx file: 'data/deck.xlsx'
 deck = explode_quantities(deck)
@@ -39,24 +39,27 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   end
 
   text(str: deck['Description'], layout: 'description') do |embed|
-    embed.svg key: 'Wood', data: game_icon_cache['log'], dy: 15
-    embed.svg key: 'Steel', data: game_icon_cache['nails'], dy: 15
-    embed.svg key: 'Stone', data: game_icon_cache['stone-block'], dy: 15
-    embed.svg key: 'Gold', data: game_icon_cache['gold-bar'], dy: 15
+    embed.svg key: 'Wood', data: game_icon_cache['log'], dy: -5, width: 52, height: :scale
+    embed.svg key: 'Steel', data: game_icon_cache['nails'], dy: -5, width: 52, height: :scale
+    embed.svg key: 'Stone', data: game_icon_cache['stone-block'], dy: -5, width: 52, height: :scale
+    embed.svg key: 'Gold', data: game_icon_cache['gold-bar'], dy: -5, width: 52, height: :scale
   end
+
+  with_desc = deck['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
+  rect range: with_desc, layout: 'description'
 
   svg layout: 'art', data: (deck['GameIcon'].collect { |name| game_icon_cache[name] })
 
-  png file: 'overlay.png', blend: 'overlay', alpha: 0.5
+  # png file: 'overlay.png', blend: 'overlay', alpha: 0.5
 
   # png file: 'tgc-proof-overlay.png'
-  # save format: :png
-  save format: :png, range: 0
+  save format: :png
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
 
-  # rect layout: 'cut_line'
-  # save_pdf file: 'deck.pdf', trim: 37.5
+  rect layout: 'cut_line'
+  save_pdf file: 'deck.pdf', trim: 37.5
 
   rect layout: 'outline'
   hand range: (40..45), trim: 37.5, trim_radius: 25
+  save_sheet prefix: 'sheet_'
 end
