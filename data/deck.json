@@ -123,7 +123,7 @@
     "GameIcon": "gears",
     "Type": "0 starter",
     "Description": null,
-    "Snark": null
+    "Snark": "Lest we forget, steampunk is a fantasy."
   },
   "9": {
     "Name": "Rusted Gears",
@@ -137,7 +137,7 @@
     "GameIcon": "gears",
     "Type": "0 starter",
     "Description": null,
-    "Snark": null
+    "Snark": "Lest we forget, steampunk is a fantasy."
   },
   "10": {
     "Name": "Pile of Nails",
@@ -346,8 +346,8 @@
     "VPAdj": null,
     "GameIcon": "gold-bar",
     "Type": "0 starter",
-    "Description": null,
-    "Snark": "The power of purchase."
+    "Description": "May also be used for any 1 Resource.",
+    "Snark": "Behold the power of purchase."
   },
   "25": {
     "Name": "A Gold Bar",
@@ -360,8 +360,8 @@
     "VPAdj": null,
     "GameIcon": "gold-bar",
     "Type": "0 starter",
-    "Description": null,
-    "Snark": "The power of purchase."
+    "Description": "May also be used for any 1 Resource.",
+    "Snark": "Behold the power of purchase."
   },
   "26": {
     "Name": "A Gold Bar",
@@ -374,8 +374,8 @@
     "VPAdj": null,
     "GameIcon": "gold-bar",
     "Type": "0 starter",
-    "Description": null,
-    "Snark": "The power of purchase."
+    "Description": "May also be used for any 1 Resource.",
+    "Snark": "Behold the power of purchase."
   },
   "27": {
     "Name": "A Gold Bar",
@@ -388,8 +388,8 @@
     "VPAdj": null,
     "GameIcon": "gold-bar",
     "Type": "0 starter",
-    "Description": null,
-    "Snark": "The power of purchase."
+    "Description": "May also be used for any 1 Resource.",
+    "Snark": "Behold the power of purchase."
   },
   "28": {
     "Name": "A Gold Bar",
@@ -402,8 +402,8 @@
     "VPAdj": null,
     "GameIcon": "gold-bar",
     "Type": "0 starter",
-    "Description": null,
-    "Snark": "The power of purchase."
+    "Description": "May also be used for any 1 Resource.",
+    "Snark": "Behold the power of purchase."
   },
   "29": {
     "Name": "A Gold Bar",
@@ -416,8 +416,8 @@
     "VPAdj": null,
     "GameIcon": "gold-bar",
     "Type": "0 starter",
-    "Description": null,
-    "Snark": "The power of purchase."
+    "Description": "May also be used for any 1 Resource.",
+    "Snark": "Behold the power of purchase."
   },
   "30": {
     "Name": "Ancient Throne",
@@ -580,7 +580,7 @@
     "Steel": null,
     "Stone": null,
     "Gold": "2",
-    "VP": "2",
+    "VP": "3",
     "VPAdj": "-1",
     "GameIcon": "gem-pendant",
     "Type": "gold path",
@@ -594,7 +594,7 @@
     "Steel": null,
     "Stone": null,
     "Gold": "4",
-    "VP": "5",
+    "VP": "6",
     "VPAdj": "-1",
     "GameIcon": "locked-chest",
     "Type": "gold path",
@@ -623,7 +623,7 @@
     "Stone": null,
     "Gold": "6",
     "VP": "13",
-    "VPAdj": "3",
+    "VPAdj": "2",
     "GameIcon": "jeweled-chalice",
     "Type": "gold path",
     "Description": null,
