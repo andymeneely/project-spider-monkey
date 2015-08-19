@@ -57,12 +57,12 @@ description:
   y: 850
   width: 675
   height: 150
-  font: Sans 28
+  font: Times New Roman,Serif 30
   align: center
   valign: middle
 snark:
   extends: description
-  font: Sans Italic 18
+  font: Times New Roman,Serif Italic 18
   y: 1000
   valign: bottom
   height: 50
