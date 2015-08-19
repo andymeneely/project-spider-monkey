@@ -23,6 +23,9 @@ names_to_game_icons = {
   'Gold'  => 'gold-bar'
 }
 
+id = {}
+deck['Name'].each_with_index{ |name,i| id[name] = i}
+
 Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   background color: bg
 
@@ -51,8 +54,8 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   svg layout: 'art', data: (deck['GameIcon'].collect { |name| game_icon_cache[name] })
 
   # png file: 'overlay.png', blend: 'overlay', alpha: 0.5
-
   # png file: 'tgc-proof-overlay.png'
+
   save format: :png
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
 
@@ -62,4 +65,6 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   rect layout: 'outline'
   hand range: (40..45), trim: 37.5, trim_radius: 25
   save_sheet prefix: 'sheet_'
+
+  # save_png range: id['Ancient Pyramid']
 end
