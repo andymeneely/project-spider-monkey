@@ -560,6 +560,34 @@
     "Snark": null
   },
   "40": {
+    "Name": "Necklace",
+    "Qty": "2",
+    "Wood": null,
+    "Steel": null,
+    "Stone": null,
+    "Gold": "3",
+    "VP": "4",
+    "VPAdj": "-1",
+    "GameIcon": "gem-necklace",
+    "Type": "gold path",
+    "Description": null,
+    "Snark": null
+  },
+  "41": {
+    "Name": "Necklace",
+    "Qty": "2",
+    "Wood": null,
+    "Steel": null,
+    "Stone": null,
+    "Gold": "3",
+    "VP": "4",
+    "VPAdj": "-1",
+    "GameIcon": "gem-necklace",
+    "Type": "gold path",
+    "Description": null,
+    "Snark": null
+  },
+  "42": {
     "Name": "War Chest",
     "Qty": "1",
     "Wood": null,
@@ -573,8 +601,8 @@
     "Description": "-2 Gold per turn",
     "Snark": null
   },
-  "41": {
-    "Name": "Necklace",
+  "43": {
+    "Name": "Chalice",
     "Qty": "1",
     "Wood": null,
     "Steel": null,
@@ -582,13 +610,13 @@
     "Gold": "3",
     "VP": "5",
     "VPAdj": null,
-    "GameIcon": "gem-chain",
+    "GameIcon": "jeweled-chalice",
     "Type": "gold path",
     "Description": null,
     "Snark": null
   },
-  "42": {
-    "Name": "Chalice",
+  "44": {
+    "Name": "Crown",
     "Qty": "1",
     "Wood": null,
     "Steel": null,
@@ -596,12 +624,12 @@
     "Gold": "6",
     "VP": "13",
     "VPAdj": "2",
-    "GameIcon": "jeweled-chalice",
+    "GameIcon": "crown",
     "Type": "gold path",
     "Description": null,
-    "Snark": null
+    "Snark": "Woah, this really is heavy."
   },
-  "43": {
+  "45": {
     "Name": "Wheelbarrow",
     "Qty": "1",
     "Wood": "2",
@@ -615,7 +643,7 @@
     "Description": "You may keep 2 Resources until the next turn",
     "Snark": null
   },
-  "44": {
+  "46": {
     "Name": "Barrel",
     "Qty": "1",
     "Wood": "2",
@@ -629,7 +657,7 @@
     "Description": "You may keep 3 Resources until the next turn",
     "Snark": null
   },
-  "45": {
+  "47": {
     "Name": "Obelisk",
     "Qty": "1",
     "Wood": "2",
@@ -643,9 +671,9 @@
     "Description": "At game end, 4 VP if your deck has 10 or fewer cards.",
     "Snark": null
   },
-  "46": {
+  "48": {
     "Name": "Screwdriver",
-    "Qty": "1",
+    "Qty": "2",
     "Wood": "2",
     "Steel": null,
     "Stone": null,
@@ -657,7 +685,21 @@
     "Description": "-2 Steel per turn",
     "Snark": null
   },
-  "47": {
+  "49": {
+    "Name": "Screwdriver",
+    "Qty": "2",
+    "Wood": "2",
+    "Steel": null,
+    "Stone": null,
+    "Gold": null,
+    "VP": "3",
+    "VPAdj": null,
+    "GameIcon": "screwdriver",
+    "Type": "steel path",
+    "Description": "-2 Steel per turn",
+    "Snark": null
+  },
+  "50": {
     "Name": "Smelter",
     "Qty": "1",
     "Wood": null,
@@ -671,49 +713,49 @@
     "Description": "-3 Steel per turn",
     "Snark": "How does smelting actually CREATE things?"
   },
-  "48": {
+  "51": {
     "Name": "Chains",
     "Qty": "2",
-    "Wood": null,
-    "Steel": "2",
-    "Stone": null,
-    "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
-    "GameIcon": "wavy-chains",
-    "Type": "steel path",
-    "Description": null,
-    "Snark": null
-  },
-  "49": {
-    "Name": "Chains",
-    "Qty": "2",
-    "Wood": null,
-    "Steel": "2",
-    "Stone": null,
-    "Gold": null,
-    "VP": "3",
-    "VPAdj": null,
-    "GameIcon": "wavy-chains",
-    "Type": "steel path",
-    "Description": null,
-    "Snark": null
-  },
-  "50": {
-    "Name": "Anvil",
-    "Qty": "1",
     "Wood": null,
     "Steel": "3",
     "Stone": null,
     "Gold": null,
     "VP": "4",
     "VPAdj": null,
-    "GameIcon": "anvil",
+    "GameIcon": "wavy-chains",
     "Type": "steel path",
-    "Description": null,
+    "Description": "Can be purchased for 2 Steel",
     "Snark": null
   },
-  "51": {
+  "52": {
+    "Name": "Chains",
+    "Qty": "2",
+    "Wood": null,
+    "Steel": "3",
+    "Stone": null,
+    "Gold": null,
+    "VP": "4",
+    "VPAdj": null,
+    "GameIcon": "wavy-chains",
+    "Type": "steel path",
+    "Description": "Can be purchased for 2 Steel",
+    "Snark": null
+  },
+  "53": {
+    "Name": "Anvil",
+    "Qty": "1",
+    "Wood": null,
+    "Steel": "4",
+    "Stone": null,
+    "Gold": null,
+    "VP": "6",
+    "VPAdj": null,
+    "GameIcon": "anvil",
+    "Type": "steel path",
+    "Description": "Can be purchased for 3 Steel",
+    "Snark": null
+  },
+  "54": {
     "Name": "Robot Golem",
     "Qty": "1",
     "Wood": null,
@@ -727,7 +769,7 @@
     "Description": "-3 Steel on each Make.",
     "Snark": null
   },
-  "52": {
+  "55": {
     "Name": "Spear",
     "Qty": "1",
     "Wood": "1",
@@ -741,7 +783,7 @@
     "Description": "-1 Stone per turn",
     "Snark": null
   },
-  "53": {
+  "56": {
     "Name": "Rockslide",
     "Qty": "1",
     "Wood": null,
@@ -755,7 +797,7 @@
     "Description": "-1 Stone per turn",
     "Snark": null
   },
-  "54": {
+  "57": {
     "Name": "Mining Pick",
     "Qty": "1",
     "Wood": "3",
@@ -769,7 +811,7 @@
     "Description": "-1 Stone per turn",
     "Snark": "We'll strike gold one of these days!"
   },
-  "55": {
+  "58": {
     "Name": "Stone Tablet",
     "Qty": "2",
     "Wood": null,
@@ -783,7 +825,7 @@
     "Description": null,
     "Snark": null
   },
-  "56": {
+  "59": {
     "Name": "Stone Tablet",
     "Qty": "2",
     "Wood": null,
@@ -797,7 +839,7 @@
     "Description": null,
     "Snark": null
   },
-  "57": {
+  "60": {
     "Name": "Medieval Turret",
     "Qty": "1",
     "Wood": null,
@@ -811,7 +853,7 @@
     "Description": "1 Stone may be used for 1 of any Resource per turn",
     "Snark": null
   },
-  "58": {
+  "61": {
     "Name": "Windmill",
     "Qty": "1",
     "Wood": "2",
@@ -825,7 +867,7 @@
     "Description": "Upon purchase, you may reorder the cards on one row or column.",
     "Snark": null
   },
-  "59": {
+  "62": {
     "Name": "Crossbow",
     "Qty": "1",
     "Wood": "1",
@@ -839,7 +881,21 @@
     "Description": "Upon purchase, you may reorder the cards on one row or column.",
     "Snark": null
   },
-  "60": {
+  "63": {
+    "Name": "Steel Axe",
+    "Qty": "1",
+    "Wood": null,
+    "Steel": "1",
+    "Stone": null,
+    "Gold": null,
+    "VP": "1",
+    "VPAdj": null,
+    "GameIcon": "wood-axe",
+    "Type": "wood path",
+    "Description": "-1 Wood per turn",
+    "Snark": null
+  },
+  "64": {
     "Name": "Wood Axe",
     "Qty": "1",
     "Wood": null,
@@ -853,35 +909,63 @@
     "Description": "-2 Wood per turn",
     "Snark": "And my axe."
   },
-  "61": {
-    "Name": "Baseball Bat",
-    "Qty": "1",
+  "65": {
+    "Name": "Small Crate",
+    "Qty": "2",
     "Wood": "3",
     "Steel": null,
     "Stone": null,
     "Gold": null,
-    "VP": "4",
-    "VPAdj": null,
-    "GameIcon": "baseball-bat",
-    "Type": "wood path",
-    "Description": null,
-    "Snark": null
-  },
-  "62": {
-    "Name": "Crate",
-    "Qty": "1",
-    "Wood": "4",
-    "Steel": null,
-    "Stone": null,
-    "Gold": null,
-    "VP": "5",
-    "VPAdj": null,
+    "VP": "3",
+    "VPAdj": "-1",
     "GameIcon": "wooden-crate",
     "Type": "wood path",
     "Description": null,
     "Snark": null
   },
-  "63": {
+  "66": {
+    "Name": "Small Crate",
+    "Qty": "2",
+    "Wood": "3",
+    "Steel": null,
+    "Stone": null,
+    "Gold": null,
+    "VP": "3",
+    "VPAdj": "-1",
+    "GameIcon": "wooden-crate",
+    "Type": "wood path",
+    "Description": null,
+    "Snark": null
+  },
+  "67": {
+    "Name": "Medium Crate",
+    "Qty": "2",
+    "Wood": "4",
+    "Steel": null,
+    "Stone": null,
+    "Gold": null,
+    "VP": "4",
+    "VPAdj": "-1",
+    "GameIcon": "wooden-crate",
+    "Type": "wood path",
+    "Description": null,
+    "Snark": null
+  },
+  "68": {
+    "Name": "Medium Crate",
+    "Qty": "2",
+    "Wood": "4",
+    "Steel": null,
+    "Stone": null,
+    "Gold": null,
+    "VP": "4",
+    "VPAdj": "-1",
+    "GameIcon": "wooden-crate",
+    "Type": "wood path",
+    "Description": null,
+    "Snark": null
+  },
+  "69": {
     "Name": "Galleon",
     "Qty": "1",
     "Wood": "7",
