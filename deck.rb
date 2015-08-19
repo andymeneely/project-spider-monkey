@@ -60,11 +60,26 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
 
   rect layout: 'cut_line'
-  save_pdf file: 'deck.pdf', trim: 37.5
+  # save_pdf file: 'deck.pdf', trim: 37.5
+  save_pdf range: [
+                   id['Necklace'],
+                   id['Small Crate'],
+                   id['Medium Crate'],
+                   id['Chalice'],
+                   id['Crown'],
+                   id['Screwdriver'],
+                   id['Chains'],
+                   id['Anvil'],
+                   id['Steel Axe'],
+                   id['Steel Axe'],
+                  ],
+           file: 'subset_deck.pdf', trim: 37.5
 
-  rect layout: 'outline'
-  hand range: (40..45), trim: 37.5, trim_radius: 25
-  save_sheet prefix: 'sheet_'
+  # rect layout: 'outline'
+  # hand range: (40..45), trim: 37.5, trim_radius: 25
+  # save_sheet prefix: 'sheet_'
+
+
 
   # save_png range: id['Ancient Pyramid']
 end
