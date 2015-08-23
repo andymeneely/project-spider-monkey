@@ -1,6 +1,6 @@
 name:
   align: center
-  font: Sans Bold 52
+  font: Museo,Sans Bold 52
   x: 75
   y: 75
   width: 675
@@ -8,7 +8,7 @@ name:
 wood_amt:
   y: 185
   align: center
-  font: Sans Bold 55
+  font: Museo,Sans Bold 55
   x: 75
   width: 75
   height: 100
