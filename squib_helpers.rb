@@ -15,6 +15,23 @@ def save_json(cards: 1, deck: {}, file: 'deck.json')
   end
 end
 
+# Return the range of cards that changed since the given commit
+def whats_changed(since: 'playtested', exclude: 'Qty', dump: 'data/deck.json')
+  old = JSON.parse `git show #{since}:#{dump}`
+  cur = JSON.parse File.read(dump)
+  change = []
+  cur.each do |id, card|
+    have_it, i = compare_to_old(card, old: old, exclude: exclude)
+    old.reject! { |k, v| k == i }
+  end
+  return changed
+end
+
+def compare_to_old(card, old: {}, exclude: 'Qty')
+  old.each do |i, old_card|
+  end
+end
+
 # Explode quantity field
 def explode_quantities(raw_deck)
   qtys = raw_deck['Qty']
