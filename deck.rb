@@ -56,15 +56,15 @@ Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
   # png file: 'overlay.png', blend: 'overlay', alpha: 0.5
   # png file: 'tgc-proof-overlay.png'
 
-  # save format: :png
+  save format: :png
   save_json cards: @cards.size, deck: deck, file: "data/deck.json"
 
   rect layout: 'cut_line'
   save_pdf file: 'deck.pdf', trim: 37.5
-  save_sheet range: whats_changed, prefix: 'whats_changed_'
+  # save_sheet range: whats_changed, prefix: 'whats_changed_'
 
-  # rect layout: 'outline'
-  # hand range: (40..45), trim: 37.5, trim_radius: 25
+  rect layout: 'outline'
+  hand range: (40..45), trim: 37.5, trim_radius: 25
   # save_sheet prefix: 'sheet_'
 
 
