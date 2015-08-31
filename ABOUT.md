@@ -1,7 +1,9 @@
-Make
-====
+Scrap
+=====
 
-A deck un-building game.
+Build to survive. Scrap to build.
+
+A deck un-building game of survival.
 
 
 Objective
@@ -39,7 +41,7 @@ Mining Pick
   - Two free Stone may be used in this turn's Make
   - VP: 2
 
-Wood Axe: Three free Wood may be 
+Wood Axe: Three free Wood may be
   - Costs: 1 Wood, 1 Steel
   - Three free Wood may be used in this turn's Make
   - VP: 2
@@ -61,7 +63,7 @@ Duct Tape
 
 Wheelbarrow:
   - Costs: 2 Wood
-  - 
+  -
   - VP: 2
 
 
@@ -73,4 +75,3 @@ Wheelbarrow:
 
 Ending the Game
 ---------------
-
