@@ -1,3 +1,16 @@
+GIT
+  remote: git://github.com/andymeneely/squib
+  revision: c6767d10b6f4f323605a41d4cfcb15dc77a0a0fb
+  branch: dev
+  specs:
+    squib (0.7.0a)
+      cairo (~> 1.14.0)
+      mercenary (~> 0.3.4)
+      pango (~> 2.2.0)
+      roo (~> 2.1.0)
+      rsvg2 (~> 2.2.0)
+      ruby-progressbar (~> 1.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -66,7 +79,7 @@ GEM
     rb-fsevent (0.9.5)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
-    roo (2.0.1)
+    roo (2.1.1)
       nokogiri (~> 1)
       rubyzip (~> 1.1, < 2.0.0)
     rsvg2 (2.2.5)
@@ -79,13 +92,6 @@ GEM
     rubyzip (1.1.7)
     shellany (0.0.1)
     slop (3.6.0)
-    squib (0.6.0)
-      cairo (~> 1.14.0)
-      mercenary (~> 0.3.4)
-      pango (~> 2.2.0)
-      roo (~> 2.0.0)
-      rsvg2 (~> 2.2.0)
-      ruby-progressbar (~> 1.6)
     thor (0.19.1)
     win32console (1.3.2)
     win32console (1.3.2-x86-mingw32)
@@ -99,7 +105,7 @@ DEPENDENCIES
   guard
   guard-rake
   nokogiri (>= 1.6.7.rc2)
-  squib
+  squib!
   win32console
 
 BUNDLED WITH
