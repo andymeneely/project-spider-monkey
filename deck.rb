@@ -6,16 +6,15 @@ require_relative 'squib_helpers'
 fg = '#000' #black
 bg = '#fff' #white
 
-# fg = '#552C00'
-# bg = '#FFD6AA'
-
-# fg = '#003333'
-# bg = '#D46A6A'
+wood_color = :black
+steel_color = :black
+stone_color = :black
+gold_color = :black
 
 deck = Squib.xlsx file: 'data/deck.xlsx'
 deck = explode_quantities(deck)
 
-game_icon_cache = prep_game_icons(deck['GameIcon'], fg, bg)
+game_icon_cache = prep_game_icons(data['GameIcon'], fg, bg)
 names_to_game_icons = {
   'Wood'  => 'log',
   'Steel' => 'nails',
@@ -24,34 +23,34 @@ names_to_game_icons = {
 }
 
 id = {}
-deck['Name'].each_with_index{ |name,i| id[name] = i}
+data['Name'].each_with_index{ |name,i| id[name] = i}
 
-Squib::Deck.new(cards: deck['Name'].size, layout: 'layout.yml',) do
+Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   background color: bg
 
   svg layout: 'vp', file: 'vp.svg'
 
   %w(Name Snark VP).each do |field|
-    text str: deck[field], layout: field.downcase
+    text str: data[field], layout: field.downcase
   end
 
   %w(Wood Steel Stone Gold).each do |field|
-    text str: deck[field], layout: "#{field.downcase}_amt"
-    icons = (deck[field].collect { |name| game_icon_cache[names_to_game_icons[field]] unless name.nil? })
+    text str: data[field], layout: "#{field.downcase}_amt"
+    icons = (data[field].collect { |name| game_icon_cache[names_to_game_icons[field]] unless name.nil? })
     svg data: icons, layout: "#{field.downcase}_icon"
   end
 
-  text(str: deck['Description'], layout: 'description') do |embed|
+  text(str: data['Description'], layout: 'description') do |embed|
     embed.svg key: 'Wood', data: game_icon_cache['log'], dy: -5, width: 52, height: :scale
     embed.svg key: 'Steel', data: game_icon_cache['nails'], dy: -5, width: 52, height: :scale
     embed.svg key: 'Stone', data: game_icon_cache['stone-block'], dy: -5, width: 52, height: :scale
     embed.svg key: 'Gold', data: game_icon_cache['gold-bar'], dy: -5, width: 52, height: :scale
   end
 
-  with_desc = deck['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
+  with_desc = data['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
   rect range: with_desc, layout: 'description'
 
-  svg layout: 'art', data: (deck['GameIcon'].collect { |name| game_icon_cache[name] })
+  svg layout: 'art', data: (data['GameIcon'].collect { |name| game_icon_cache[name] })
 
   # png file: 'overlay.png', blend: 'overlay', alpha: 0.5
   # png file: 'tgc-proof-overlay.png'
