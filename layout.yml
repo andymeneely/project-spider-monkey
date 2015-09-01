@@ -1,6 +1,6 @@
 name:
   align: center
-  font: Museo,Sans Bold 52
+  font: Montserrat Black,Serif Bold 52
   x: 75
   y: 75
   width: 675
@@ -8,21 +8,29 @@ name:
 wood_amt:
   y: 185
   align: center
-  font: Museo,Sans Bold 55
-  x: 75
+  font: Montserrat Black,Serif Bold 55
+  x: 60
   width: 75
   height: 100
 wood_icon:
   extends: wood_amt
-  x: 150
+  x: 135
   width: 100
   height: 100
+wood_rect:
+  extends: wood_icon
+  x: -= 250
+  width: += 300
+  radius: 50
 
 steel_amt:
   extends: wood_amt
   y: += 135
 steel_icon:
   extends: wood_icon
+  y: += 135
+steel_rect:
+  extends: wood_rect
   y: += 135
 
 stone_amt:
@@ -31,6 +39,9 @@ stone_amt:
 stone_icon:
   extends: steel_icon
   y: += 135
+stone_rect:
+  extends: steel_rect
+  y: += 135
 
 gold_amt:
   extends: stone_amt
@@ -38,20 +49,48 @@ gold_amt:
 gold_icon:
   extends: stone_icon
   y: += 135
+gold_rect:
+  extends: stone_rect
+  y: += 135
 
-vp:
+vp_frame:
   extends: gold_amt
-  y: += 155
-  font_size: 48
-  width: 100
+  x: 520
+  y: += 120
+  radius: 25
+  width: 500
   height: 100
-  color: white
+vp:
+  extends: vp_frame
+  x: += 20
+  y: += 10
+  width: 100
+  font_size: 48
+  align: center
 
-art:
+food_icon:
+  extends: vp_frame
+  x: += 110
+  width: 100
+
+shelter_icon:
+  extends: food_icon
+
+clothing_icon:
+  extends: shelter_icon
+
+art_frame:
+  radius: 25
   x: 300
-  y: 225
-  width: 450
+  y: 215
+  width: 700
   height: 450
+art:
+  extends: art_frame
+  x: += 15
+  y: += 15
+  width: 425
+  height: 425
 description:
   x: 75
   y: 850

@@ -1,8 +1,8 @@
 # NAME_TBD
 
-NAME_TBD is a game of building stuff. And then un-building that stuff. To build more stuff.
+To survive, you'll need to build stuff. And then un-building that stuff. To build more stuff.
 
-To win, you'll need to build up a deck with the most victory points.
+To win, you'll need to create a deck with the most victory points. You'll need to balance your points across categories of food, shelter, and clothing.
 
 # Resources
 
@@ -14,7 +14,7 @@ The cards in the deck represent items that you are trying to build. Each card ha
 
 * A title
 * Resources along the left side of the card (e.g. 1 Steel)
-* Victory Points (VP) inside the shield icon
+* Victory Points (VP) below the artwork, which are either in the Food, Shelter, or Clothing categories
 
 Some cards have a Description along bottom, which provides special abilities.
 
