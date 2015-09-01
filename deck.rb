@@ -3,19 +3,38 @@ require 'squib'
 require 'game_icons'
 require_relative 'squib_helpers'
 
-fg = '#000' #black
-bg = '#fff' #white
 
-pallete = {
-  'Wood' => :black,
-  'Steel' => :black,
-  'Stone' => :black,
-  'Gold' => :black,
-  'Art' => :black,
-  'Food'     => :black,
-  'Shelter'  => :black,
-  'Clothing' => :black,
-}
+case ENV['use_color']
+when 'color'
+  fg = '#000'
+  bg = '#FFF3AA'
+
+  pallete = {
+    'Wood' => '#553200',
+    'Steel' => '#333',
+    'Stone' => '#333',
+    'Gold' => :black,
+    'Art' => :black,
+    'Food'     => :black,
+    'Shelter'  => :black,
+    'Clothing' => :black,
+  }
+when 'bw'
+  fg = '#000' #black
+  bg = '#fff' #white
+
+  pallete = {
+    'Wood' => :black,
+    'Steel' => :black,
+    'Stone' => :black,
+    'Gold' => :black,
+    'Art' => :black,
+    'Food'     => :black,
+    'Shelter'  => :black,
+    'Clothing' => :black,
+  }
+end
+
 
 data = Squib.xlsx file: 'data/deck.xlsx'
 data = explode_quantities(data)
