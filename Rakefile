@@ -1,8 +1,17 @@
 require 'squib'
 
-task default: [:deck]
+task default: [:bw]
+
+task :bw do
+  ENV['pallete'] = 'bw'
+  Rake::Task["deck"].invoke
+end
+
+task :color do
+  ENV['pallete'] = 'color'
+  Rake::Task["deck"].invoke
+end
 
 task :deck do
-  ENV['use_color'] = 'color'
   load 'deck.rb'
 end

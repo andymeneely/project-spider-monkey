@@ -4,20 +4,20 @@ require 'game_icons'
 require_relative 'squib_helpers'
 
 
-case ENV['use_color']
+case ENV['pallete']
 when 'color'
   fg = '#000'
   bg = '#FFF3AA'
 
   pallete = {
     'Wood' => '#553200',
-    'Steel' => '#333',
-    'Stone' => '#333',
-    'Gold' => :black,
-    'Art' => :black,
-    'Food'     => :black,
-    'Shelter'  => :black,
-    'Clothing' => :black,
+    'Steel' => '#133453',
+    'Stone' => '#474747',
+    'Gold' => '#807015',
+    'Art' => '#303030',
+    'Food'     => '#303030',
+    'Shelter'  => '#303030',
+    'Clothing' => '#303030',
   }
 when 'bw'
   fg = '#000' #black
@@ -60,7 +60,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   end
 
   %w(Wood Steel Stone Gold).each do |field|
-    rect range: data[field].each.with_index.map { |x, i| x.nil? ? nil : i }.compact, layout: "#{field.downcase}_rect", fill_color: pallete['Art']
+    rect range: data[field].each.with_index.map { |x, i| x.nil? ? nil : i }.compact, layout: "#{field.downcase}_rect", fill_color: pallete[field], stroke_width: 0
     text str: data[field], layout: "#{field.downcase}_amt", color: bg
     icons = (data[field].collect { |name| game_icon_cache[names_to_game_icons[field]] unless name.nil? })
     svg data: icons, layout: "#{field.downcase}_icon"
@@ -101,7 +101,4 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   20.times do |i|
     hand range: (0..size-1).to_a.sample(5).sort, trim: 37.5, trim_radius: 25, file: "hand_#{'%02d' % i}.png"
   end
-
-  save_sheet prefix: 'sheet_'
-
 end
