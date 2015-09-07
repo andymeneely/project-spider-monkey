@@ -49,7 +49,9 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   end
 
   %w(Wood Steel Stone Gold).each do |res|
-    rect range: data[res].each.with_index.map { |x, i| x.nil? ? nil : i }.compact, layout: "#{res.downcase}_rect", fill_color: pallete[res], stroke_width: 0
+    rect range: data[res].each.with_index.map { |x, i| x.nil? ? nil : i }.compact,
+         layout: "#{res.downcase}_rect",
+         fill_color: pallete[res], stroke_width: 0
     text str: data[res], layout: "#{res.downcase}_amt", color: bg
     icons = data[res].map { |amt| "#{mode}/resource_#{res.downcase}.svg" unless amt.nil? }
     svg file: icons, layout: "#{res.downcase}_icon"
