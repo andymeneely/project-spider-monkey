@@ -25,38 +25,38 @@ wood_rect:
 
 steel_amt:
   extends: wood_amt
-  y: += 135
+  y: += 175
 steel_icon:
   extends: wood_icon
-  y: += 135
+  y: += 175
 steel_rect:
   extends: wood_rect
-  y: += 135
+  y: += 175
 
 stone_amt:
   extends: steel_amt
-  y: += 135
+  y: += 175
 stone_icon:
   extends: steel_icon
-  y: += 135
+  y: += 175
 stone_rect:
   extends: steel_rect
-  y: += 135
+  y: += 175
 
 gold_amt:
   extends: stone_amt
-  y: += 135
+  y: += 175
 gold_icon:
   extends: stone_icon
-  y: += 135
+  y: += 175
 gold_rect:
   extends: stone_rect
-  y: += 135
+  y: += 175
 
 vp_frame:
   extends: gold_amt
   x: 520
-  y: += 120
+  y: 710
   radius: 25
   width: 500
   height: 100
