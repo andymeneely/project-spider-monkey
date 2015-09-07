@@ -39,9 +39,12 @@ end
 data = Squib.xlsx file: 'data/deck.xlsx'
 data = explode_quantities(data)
 
-data['GameIcon'].each do |gi|
-  File.open("img/bw/art_#{gi}.svg", 'w+') { |f| f.write(GameIcons.get(gi).recolor(fg: '#000', bg: '#fff').string) }
-end
+# data['GameIcon'].each do |gi|
+#   File.open("img/bw/art_#{gi}.svg", 'w+') { |f| f.write(GameIcons.get(gi).recolor(fg: '#000', bg: '#fff').string) }
+# end
+
+%w(log nails stone-block gold-bar wheat house shorts).each {|gi| File.open("img/bw/resource_embed_#{gi}.svg", 'w+') { |f| f.write(GameIcons.get(gi).recolor(fg: '#000', bg: '#fff').string) } }
+%w(log nails stone-block gold-bar wheat house shorts).each {|gi| File.open("img/bw/resource_#{gi}.svg", 'w+') { |f| f.write(GameIcons.get(gi).recolor(fg: '#fff', bg: '#000').string) } }
 
 game_icon_cache = prep_game_icons(data['GameIcon'] + %w(wheat house shorts), bg, fg)
 names_to_game_icons = {
