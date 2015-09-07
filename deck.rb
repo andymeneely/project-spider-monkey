@@ -36,17 +36,6 @@ when 'bw'
   }
 end
 
-res_icon = {
-  'Wood'     => 'log',
-  'Steel'    => 'nails',
-  'Stone'    => 'stone-block',
-  'Gold'     => 'gold-bar',
-  'food'     => 'wheat',
-  'shelter'  => 'house',
-  'clothing' => 'shorts',
-}
-
-
 data = Squib.xlsx file: 'data/deck.xlsx'
 data = explode_quantities(data)
 
@@ -59,11 +48,11 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
     text str: data[field], layout: field.downcase
   end
 
-  %w(Wood Steel Stone Gold).each do |field|
-    rect range: data[field].each.with_index.map { |x, i| x.nil? ? nil : i }.compact, layout: "#{field.downcase}_rect", fill_color: pallete[field], stroke_width: 0
-    text str: data[field], layout: "#{field.downcase}_amt", color: bg
-    icons = data[field].map { |amt| "#{mode}/resource_#{res_icon[field]}.svg" unless amt.nil? }
-    svg file: icons, layout: "#{field.downcase}_icon"
+  %w(Wood Steel Stone Gold).each do |res|
+    rect range: data[res].each.with_index.map { |x, i| x.nil? ? nil : i }.compact, layout: "#{res.downcase}_rect", fill_color: pallete[res], stroke_width: 0
+    text str: data[res], layout: "#{res.downcase}_amt", color: bg
+    icons = data[res].map { |amt| "#{mode}/resource_#{res.downcase}.svg" unless amt.nil? }
+    svg file: icons, layout: "#{res.downcase}_icon"
   end
 
   # rect layout: 'vp_frame', fill_color: fg
