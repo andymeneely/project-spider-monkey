@@ -431,7 +431,7 @@
     "VPtype": "food",
     "GameIcon": "stone-throne",
     "Type": "ancient",
-    "Description": "At game end, 2 VP for two Ancient artifacts, and 4 VP for three Ancient artifacts",
+    "Description": "At game end, +2 VP for two Ancient artifacts, and +4 VP for three Ancient artifacts",
     "Snark": "Great for making decrees."
   },
   "29": {
@@ -446,7 +446,7 @@
     "VPtype": "clothing",
     "GameIcon": "overlord-helm",
     "Type": "ancient",
-    "Description": "At game end, 2 VP for two Ancient artifacts, and 4 VP for three Ancient artifacts",
+    "Description": "At game end, +2 VP for two Ancient artifacts, and +4 VP for three Ancient artifacts",
     "Snark": "To war!"
   },
   "30": {
@@ -461,7 +461,7 @@
     "VPtype": "shelter",
     "GameIcon": "mayan-pyramid",
     "Type": "ancient",
-    "Description": "At game end, 2 VP for two Ancient artifacts, and 4 VP for three Ancient artifacts",
+    "Description": "At game end, +2 VP for two Ancient artifacts, and +4 VP for three Ancient artifacts",
     "Snark": "Great for naps or eternal rest!"
   },
   "31": {
@@ -731,7 +731,7 @@
     "VPtype": "shelter",
     "GameIcon": "barn",
     "Type": "small deck",
-    "Description": "At game end, 1 VP if your deck has 10 or fewer cards.",
+    "Description": "At game end, +1 VP if your deck has 10 or fewer cards.",
     "Snark": "Fun fact: not a good place to be born in."
   },
   "49": {
@@ -746,7 +746,7 @@
     "VPtype": "shelter",
     "GameIcon": "obelisk",
     "Type": "small deck",
-    "Description": "At game end, 3 VP if your deck has 10 or fewer cards.",
+    "Description": "At game end, +3 VP if your deck has 10 or fewer cards.",
     "Snark": "A must have for the modern surivor."
   },
   "50": {
@@ -881,7 +881,7 @@
     "VPtype": "food",
     "GameIcon": "robot-golem",
     "Type": "steel path",
-    "Description": "At game end, 1 VP per card that contains Steel, including this one.",
+    "Description": "At game end, +1 VP per card that contains Steel, including this one.",
     "Snark": "Wait, when did this game get futuristic?!?!?"
   },
   "59": {
@@ -1166,7 +1166,7 @@
     "VPtype": "food",
     "GameIcon": "wizard-staff",
     "Type": "wood path",
-    "Description": "At game end, 2 VP if deck contains 4 Wood besides this card.",
+    "Description": "At game end, +2 VP if deck contains 4 Wood besides this card.",
     "Snark": null
   },
   "78": {
@@ -1181,7 +1181,7 @@
     "VPtype": "shelter",
     "GameIcon": "galleon",
     "Type": "wood path",
-    "Description": "At game end, 1 VP per Wood in any cards except this one.",
+    "Description": "At game end, +1 VP per Wood in any cards except this one.",
     "Snark": null
   }
 }
