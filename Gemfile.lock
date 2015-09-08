@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/andymeneely/squib
-  revision: c6767d10b6f4f323605a41d4cfcb15dc77a0a0fb
+  revision: 0fe5c55b9ea7b65fbb8f2fd782866b184c450d84
   branch: dev
   specs:
     squib (0.7.0a)
@@ -14,15 +14,15 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    cairo (1.14.1)
+    cairo (1.14.2)
       pkg-config (>= 1.1.5)
-    cairo (1.14.1-x86-mingw32)
+    cairo (1.14.2-x86-mingw32)
       pkg-config (>= 1.1.5)
     coderay (1.1.0)
     ffi (1.9.10)
     ffi (1.9.10-x86-mingw32)
     formatador (0.2.5)
-    game_icons (0.17.0.20150828)
+    game_icons (0.18.0.20150904)
     gdk_pixbuf2 (2.2.5)
       glib2 (= 2.2.5)
     gdk_pixbuf2 (2.2.5-x86-mingw32)
@@ -50,12 +50,12 @@ GEM
     lumberjack (1.0.9)
     mercenary (0.3.5)
     method_source (0.8.2)
-    mini_portile (0.7.0.rc2)
+    mini_portile (0.7.0.rc4)
     nenv (0.2.0)
-    nokogiri (1.6.7.rc2)
-      mini_portile (~> 0.7.0.rc2)
-    nokogiri (1.6.7.rc2-x86-mingw32)
-      mini_portile (~> 0.7.0.rc2)
+    nokogiri (1.6.7.rc3)
+      mini_portile (~> 0.7.0.rc4)
+    nokogiri (1.6.7.rc3-x86-mingw32)
+      mini_portile (~> 0.7.0.rc4)
     notiffany (0.0.7)
       nenv (~> 0.1)
       shellany (~> 0.0)
@@ -76,7 +76,7 @@ GEM
       slop (~> 3.4)
       win32console (~> 1.3)
     rake (10.4.2)
-    rb-fsevent (0.9.5)
+    rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     roo (2.1.1)
@@ -107,6 +107,3 @@ DEPENDENCIES
   nokogiri (>= 1.6.7.rc2)
   squib!
   win32console
-
-BUNDLED WITH
-   1.10.6
