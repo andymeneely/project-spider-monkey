@@ -57,7 +57,7 @@ vp_frame:
   extends: gold_amt
   x: 520
   y: 710
-  radius: 25
+  radius: 50
   width: 500
   height: 100
 vp:
