@@ -57,32 +57,31 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
     svg file: icons, layout: "#{res.downcase}_icon"
   end
 
-  # rect layout: 'vp_frame', fill_color: fg
-  # %w(food shelter clothing).each do |field|
-  #   icons = data['VPtype'].map { |name| game_icon_cache[names_to_game_icons[name]]}
-  #   svg data: icons, layout: "#{field.downcase}_icon"
-  # end
-  # text str: data['VP'], layout: 'vp', color: bg
+  rect layout: 'vp_frame', fill_color: fg
+  %w(food shelter clothing).each do |field|
+    icons = data['VPtype'].map { |name| "#{mode}/vp_#{name}.svg" }
+    svg file: icons, layout: "#{field.downcase}_icon"
+  end
+  text str: data['VP'], layout: 'vp', color: bg
 
-  # text(str: data['Description'], layout: 'description') do |embed|
-  #   embed.svg key: 'Wood', data: game_icon_cache['log'], dy: -5, width: 52, height: :scale
-  #   embed.svg key: 'Steel', data: game_icon_cache['nails'], dy: -5, width: 52, height: :scale
-  #   embed.svg key: 'Stone', data: game_icon_cache['stone-block'], dy: -5, width: 52, height: :scale
-  #   embed.svg key: 'Gold', data: game_icon_cache['gold-bar'], dy: -5, width: 52, height: :scale
-  # end
+  text(str: data['Description'], layout: 'description') do |embed|
+    %w(Wood Steel Stone Gold).each do |res|
+      embed.svg key: res, file: "img/#{mode}/resource_embed_#{res.downcase}.svg", dy: -5, width: 52, height: :scale
+    end
+  end
 
-  # with_desc = data['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
-  # rect range: with_desc, layout: 'description'
+  with_desc = data['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
+  rect range: with_desc, layout: 'description'
 
   # rect layout: 'art_frame', fill_color: pallete['Art']
   # svg layout: 'art', data: (data['GameIcon'].collect { |name| game_icon_cache[name] })
 
   # # png file: 'tgc-proof-overlay.png'
 
-  # save format: :png
-  save_png range: id['Obelisk']
+  save format: :png
+  # save_png range: id['Obelisk']
 
-  # save_json cards: @cards.size, deck: data, file: "data/deck.json"
+  save_json cards: @cards.size, deck: data, file: "data/deck.json"
 
   # rect layout: 'cut_line'
   # save_pdf file: 'deck.pdf', trim: 37.5
