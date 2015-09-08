@@ -73,8 +73,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   with_desc = data['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
   rect range: with_desc, layout: 'description'
 
-  # rect layout: 'art_frame', fill_color: pallete['Art']
-  # svg layout: 'art', data: (data['GameIcon'].collect { |name| game_icon_cache[name] })
+  svg layout: 'art', file: data['GameIcon'].map { |art| "#{mode}/art_#{art}.svg" }
 
   # # png file: 'tgc-proof-overlay.png'
 
@@ -83,12 +82,12 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
 
-  # rect layout: 'cut_line'
-  # save_pdf file: 'deck.pdf', trim: 37.5
-  # # save_sheet range: whats_changed, prefix: 'whats_changed_'
+  rect layout: 'cut_line'
+  save_pdf file: 'deck.pdf', trim: 37.5
+  # save_sheet range: whats_changed, prefix: 'whats_changed_'
 
-  # rect layout: 'outline'
-  # 20.times do |i|
-  #   hand range: (0..size-1).to_a.sample(5).sort, trim: 37.5, trim_radius: 25, file: "hand_#{'%02d' % i}.png"
-  # end
+  rect layout: 'outline'
+  20.times do |i|
+    hand range: (0..size-1).to_a.sample(5).sort, trim: 37.5, trim_radius: 25, file: "hand_#{'%02d' % i}.png"
+  end
 end
