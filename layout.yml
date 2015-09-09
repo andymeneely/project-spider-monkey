@@ -105,7 +105,6 @@ snark:
   y: 1000
   valign: bottom
   height: 50
-  hint: white
 cut_line:
   x: 37
   y: 37

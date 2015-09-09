@@ -3,12 +3,11 @@ require 'squib'
 require 'game_icons'
 require_relative 'squib_helpers'
 
-
 mode = ENV['pallete'] # bw or color
 case mode
 when 'color'
-  fg = '#000'
-  bg = '#FFF3AA'
+  fg = '#28221b' # dark
+  bg = '#FFDCAA' # light
 
   pallete = {
     'Wood' => '#553200',
@@ -44,9 +43,19 @@ id = data['Name'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; 
 Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   background color: bg
 
-  %w(Name Snark).each do |field|
-    text str: data[field], layout: field.downcase
+  # Illustration on the bottom
+  case mode
+  when 'bw'
+    svg layout: 'art', file: data['GameIcon'].map { |art| "#{mode}/art_#{art}.svg" }
+  when 'color'
+    files = data['GameIcon'].map do |a|
+      f = "color/art_#{a}.png"
+      File.exist?("img/#{f}") ? f : nil
+    end
+    png file: files, blend: 'hard_light', alpha: 0.65
   end
+
+  text str: data['Name'], layout: 'name', color: fg
 
   %w(Wood Steel Stone Gold).each do |res|
     rect range: data[res].each.with_index.map { |x, i| x.nil? ? nil : i }.compact,
@@ -73,21 +82,26 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   with_desc = data['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
   rect range: with_desc, layout: 'description'
 
-  svg layout: 'art', file: data['GameIcon'].map { |art| "#{mode}/art_#{art}.svg" }
+  text str: data['Snark'], layout: 'snark', alpha: 0.75
 
-  # # png file: 'tgc-proof-overlay.png'
+  # png file: 'tgc-proof-overlay.png'
 
-  save format: :png
-  # save_png range: id['Obelisk']
+  save prefix: "card_#{mode}_", format: :png
+  # save_png prefix: "card_#{mode}_", range: id['Obelisk']
+  # save_png prefix: "card_#{mode}_", range: id['Robot Golem']
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
 
+  showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
+
   rect layout: 'cut_line'
-  save_pdf file: 'deck.pdf', trim: 37.5
+  save_pdf file: "deck_#{mode}.pdf", trim: 37.5
   # save_sheet range: whats_changed, prefix: 'whats_changed_'
 
-  rect layout: 'outline'
-  20.times do |i|
-    hand range: (0..size-1).to_a.sample(5).sort, trim: 37.5, trim_radius: 25, file: "hand_#{'%02d' % i}.png"
-  end
+
+  # rect layout: 'outline'
+  # 20.times do |i|
+  #   hand range: (0..size-1).to_a.sample(5).sort, trim: 37.5, trim_radius: 25, file: "hand_#{mode}_#{'%02d' % i}.png"
+  # end
+
 end
