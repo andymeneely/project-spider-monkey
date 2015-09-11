@@ -1,4 +1,6 @@
-# Project Spider Monkey [![Build Status](https://secure.travis-ci.org/andymeneely/project-spider-monkey.svg?branch=master)](https://travis-ci.org/andymeneely/project-spider-monkey) [![Version](https://github.com/andymeneely/project-spider-monkey/blob/master/build-badge.svg)](https://github.com/andymeneely/project-spider-monkey/tree/master/builds)
+# Project Spider Monkey [![Build Status](https://secure.travis-ci.org/andymeneely/project-spider-monkey.svg?branch=master)](https://travis-ci.org/andymeneely/project-spider-monkey) [![Version](https://cdn.rawgit.com/andymeneely/project-spider-monkey/blob/master/build-badge.svg)](https://github.com/andymeneely/project-spider-monkey/tree/master/builds)
+
+https://cdn.rawgit.com/zeromq/netmq/master/img/NetMQLogo.svg
 
 An open source card game, designed collaboratively.
 
