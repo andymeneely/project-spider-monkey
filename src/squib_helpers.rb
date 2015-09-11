@@ -1,5 +1,11 @@
 require 'game_icons'
 require 'json'
+require 'spider_monkey_version'
+
+def build
+  "v%03d" % SpiderMonkey::VERSION
+end
+
 
 # Generates a JSON output from deck for easy Git tracking.
 def save_json(cards: 1, deck: {}, file: 'deck.json')

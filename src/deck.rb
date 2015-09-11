@@ -1,7 +1,7 @@
 require 'pp'
 require 'squib'
 require 'game_icons'
-require_relative 'squib_helpers'
+require 'squib_helpers'
 
 mode = ENV['pallete'] # bw or color
 case mode
@@ -87,7 +87,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
 
   # png file: 'tgc-proof-overlay.png'
 
-  save prefix: "card_#{mode}_", format: :png
+  save prefix: "card_#{mode}_#{build}_", format: :png
   # save_png prefix: "card_#{mode}_", range: id['Obelisk']
   # save_png prefix: "card_#{mode}_", range: id['Robot Golem']
 
@@ -96,9 +96,8 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
 
   rect layout: 'cut_line'
-  save_pdf file: "deck_#{mode}.pdf", trim: 37.5
+  save_pdf dir: "builds", file: "deck_#{mode}_#{build}.pdf", trim: 37.5
   # save_sheet range: whats_changed, prefix: 'whats_changed_'
-
 
   # rect layout: 'outline'
   # 20.times do |i|
