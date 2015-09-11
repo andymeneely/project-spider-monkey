@@ -1,10 +1,10 @@
 GIT
   remote: git://github.com/andymeneely/squib
-  revision: 0fe5c55b9ea7b65fbb8f2fd782866b184c450d84
+  revision: 42747f6b2ac6a82fcfb9d0775aaa8ee05352fd2b
   branch: dev
   specs:
     squib (0.7.0a)
-      cairo (~> 1.14.0)
+      cairo (~> 1.14.2)
       mercenary (~> 0.3.4)
       pango (~> 2.2.0)
       roo (~> 2.1.0)
@@ -14,15 +14,15 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    cairo (1.14.2)
+    cairo (1.14.3)
       pkg-config (>= 1.1.5)
-    cairo (1.14.2-x86-mingw32)
+    cairo (1.14.3-x86-mingw32)
       pkg-config (>= 1.1.5)
     coderay (1.1.0)
     ffi (1.9.10)
     ffi (1.9.10-x86-mingw32)
     formatador (0.2.5)
-    game_icons (0.18.0.20150904)
+    game_icons (0.19.0.20150910)
     gdk_pixbuf2 (2.2.5)
       glib2 (= 2.2.5)
     gdk_pixbuf2 (2.2.5-x86-mingw32)
@@ -104,6 +104,6 @@ DEPENDENCIES
   game_icons
   guard
   guard-rake
-  nokogiri (>= 1.6.7.rc2)
+  nokogiri (>= 1.6.7.rc3)
   squib!
   win32console
