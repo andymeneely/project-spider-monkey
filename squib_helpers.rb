@@ -52,3 +52,13 @@ def prep_game_icons(game_icons, fg, bg)
   end
   cache
 end
+
+def load_bw_art_icons(game_icons)
+  game_icons.each do |icon|
+    unless File.exist? "img/bw/art_#{icon}.svg"
+      File.open("img/bw/art_#{icon}.svg", 'w+') do |f|
+        f.write(GameIcons.get(icon).recolor(fg: '#000', bg: '#fff').string)
+      end
+    end
+  end
+end

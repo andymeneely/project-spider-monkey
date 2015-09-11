@@ -46,6 +46,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   # Illustration on the bottom
   case mode
   when 'bw'
+    load_bw_art_icons data['GameIcon']
     svg layout: 'art', file: data['GameIcon'].map { |art| "#{mode}/art_#{art}.svg" }
   when 'color'
     files = data['GameIcon'].map do |a|
