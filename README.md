@@ -1,4 +1,5 @@
-# Project Spider Monkey [![Build Status](https://secure.travis-ci.org/andymeneely/project-spider-monkey.svg?branch=master)](https://travis-ci.org/andymeneely/project-spider-monkey) ![Version](https://raw.githubusercontent.com/andymeneely/project-spider-monkey/master/build-badge.svg)
+# Project Spider Monkey [![Build Status](https://secure.travis-ci.org/andymeneely/project-spider-monkey.svg?branch=master)](https://travis-ci.org/andymeneely/project-spider-monkey) [![Version](https://github.com/andymeneely/project-spider-monkey/blob/master/build-badge.svg)](https://github.com/andymeneely/project-spider-monkey/tree/master/builds)
+
 An open source card game, designed collaboratively.
 
 Let's make a game the open source way. Let's submit it to [TheGameCrafter.com's "The Survival Challenge" contest](https://www.thegamecrafter.com/contests/the-survival-challenge). Due Nov 30 2015.
