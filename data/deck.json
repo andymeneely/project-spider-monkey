@@ -586,7 +586,7 @@
   },
   "39": {
     "Name": "Pendant",
-    "Qty": "2",
+    "Qty": "1",
     "Wood": null,
     "Steel": null,
     "Stone": null,
@@ -600,19 +600,19 @@
     "Snark": "Snag this while you can!"
   },
   "40": {
-    "Name": "Pendant",
-    "Qty": "2",
+    "Name": "Gold Mine",
+    "Qty": "1",
     "Wood": null,
     "Steel": null,
     "Stone": null,
     "Gold": "2",
-    "VP": "2",
-    "VPAdj": "-2",
+    "VP": "4",
+    "VPAdj": null,
     "VPtype": "shelter",
-    "GameIcon": "gem-pendant",
+    "GameIcon": "gold-mine",
     "Type": "gold path",
-    "Description": "-2 Gold per turn",
-    "Snark": "Snag this while you can!"
+    "Description": "May also be purchased for 1 Wood, 1 Steel, and 1 Stone.",
+    "Snark": "There's gold in them there hills!"
   },
   "41": {
     "Name": "Necklace",
