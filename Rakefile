@@ -2,17 +2,17 @@ require 'squib'
 
 task default: [:bw]
 
+task all: [:bw, :color]
+
 task :bw do
+  puts "=== Building black and white deck ==="
   ENV['pallete'] = 'bw'
-  Rake::Task["deck"].invoke
+  load 'deck.rb'
 end
 
 task color: :recolor do
+  puts "=== Building color deck ==="
   ENV['pallete'] = 'color'
-  Rake::Task["deck"].invoke
-end
-
-task :deck do
   load 'deck.rb'
 end
 
