@@ -1,4 +1,4 @@
-# Project Spider Monkey
+# Project Spider Monkey [![Build Status](https://secure.travis-ci.org/andymeneely/project-spider-monkey.svg?branch=master)](https://travis-ci.org/andymeneely/project-spider-monkey)
 
 An open source card game, designed collaboratively.
 

@@ -1,0 +1,8 @@
+language: ruby
+sudo: false # taking advantage of container-based infrastructure
+cache: bundler
+rvm:
+  - 2.0
+  - 2.1
+  - 2.2
+script: bundle exec rake all
