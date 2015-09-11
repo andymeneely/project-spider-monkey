@@ -4,8 +4,6 @@ An open source card game, designed collaboratively.
 
 Let's make a game the open source way. Let's submit it to [TheGameCrafter.com's "The Survival Challenge" contest](https://www.thegamecrafter.com/contests/the-survival-challenge). Due Nov 30 2015.
 
-**Project status**. August 30 2015. This is a brand new "sketch" of a game that I've put together over the last two months or so. It's currently been playtested about a dozen times by three different people, and went through a lot of iterations. I think it shows great potential, and seems like a neat candidate for an open source game. Today I'm posting it on GitHub for the first time.
-
 And no, Project Spider Monkey is not the name of the game. We can decide on the name as a team.
 
 # Get the Game
