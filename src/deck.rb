@@ -36,7 +36,6 @@ when 'bw'
 end
 
 data = Squib.xlsx file: 'data/deck.xlsx'
-data = explode_quantities(data)
 
 id = data['Name'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}
 
@@ -53,7 +52,8 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
       f = "color/art_#{a}.png"
       File.exist?("img/#{f}") ? f : nil
     end
-    png file: files, blend: 'hard_light', alpha: 0.65
+    png file: files #, blend: 'multiply' #, alpha: 0.65
+    # png file: 'color/grid.png', blend: 'multiply' #, alpha: 0.65
   end
 
   text str: data['Name'], layout: 'name', color: fg
@@ -87,16 +87,24 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
 
   # png file: 'tgc-proof-overlay.png'
 
-  save prefix: "card_#{mode}_#{build}_", format: :png
+  # save prefix: "card_#{mode}_#{build}_", format: :png
   # save_png prefix: "card_#{mode}_", range: id['Obelisk']
+
   # save_png prefix: "card_#{mode}_", range: id['Robot Golem']
+  # save_png prefix: "card_#{mode}_", range: id['Battle Axe']
+  # save_png prefix: "card_#{mode}_", range: id['Spear']
+  save_png prefix: "card_#{mode}_", range: id['Anvil']
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
 
-  showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
+  # showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
 
   rect layout: 'cut_line'
   save_pdf dir: "builds", file: "deck_#{mode}_#{build}.pdf", trim: 37.5
+
+  # rect
+  # save_pdf file: "tracer.pdf"
+
   # save_sheet range: whats_changed, prefix: 'whats_changed_'
 
   # rect layout: 'outline'
@@ -105,3 +113,5 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   # end
 
 end
+
+puts "Done!"
