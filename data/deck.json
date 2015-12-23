@@ -1026,12 +1026,12 @@
     "Steel": "1",
     "Stone": null,
     "Gold": null,
-    "VP": "4",
-    "VPAdj": null,
+    "VP": "3",
+    "VPAdj": "-1",
     "VPtype": "clothing",
     "GameIcon": "windmill",
-    "Type": "swap",
-    "Description": "Upon purchase, you may reorder cards on one row or column. May also be trashed to do the same.",
+    "Type": "build",
+    "Description": "When played, trash this card to build any available blueprint for free.",
     "Snark": null
   },
   "69": {
@@ -1041,12 +1041,12 @@
     "Steel": "2",
     "Stone": null,
     "Gold": null,
-    "VP": "4",
-    "VPAdj": null,
+    "VP": "3",
+    "VPAdj": "-1",
     "VPtype": "food",
     "GameIcon": "crossbow",
-    "Type": "swap",
-    "Description": "Upon purchase, you may reorder cards on one row or column. May also be trashed to do the same.",
+    "Type": "build",
+    "Description": "When played, trash this card to build any available blueprint for free.",
     "Snark": null
   },
   "70": {
