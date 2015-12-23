@@ -3,6 +3,8 @@ require 'squib'
 require 'game_icons'
 require 'squib_helpers'
 require_relative 'spider_monkey_version'
+require_relative 'refinements'
+using Squib::Refinements
 
 mode = ENV['pallete'] # bw or color
 case mode
@@ -37,8 +39,7 @@ when 'bw'
 end
 
 data = Squib.xlsx file: 'data/deck.xlsx'
-
-id = data['Name'].each.with_index.inject({}) { | hsh, (name, i)| hsh[name] = i; hsh}
+id = data['Name'].index_lookups
 
 Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   background color: bg
@@ -77,9 +78,8 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
     end
   end
 
-  with_desc = data['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
-  rect range: with_desc, layout: :bonus
-  rect range: with_desc, layout: :bonus_icon
+  rect range: data['Description'].non_nil_indices, layout: :bonus
+  rect range: data['Description'].non_nil_indices, layout: :bonus_icon
 
   text str: data['Snark'], layout: 'snark', alpha: 0.75
 
