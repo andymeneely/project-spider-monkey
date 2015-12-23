@@ -91,7 +91,8 @@ art:
   y: += 15
   width: 425
   height: 425
-description:
+
+bonus:
   x: 75
   y: 850
   width: 675
@@ -99,8 +100,16 @@ description:
   font: Times New Roman,Serif 30
   align: center
   valign: middle
+bonus_text:
+  extends: bonus
+  x: 225
+  width: 525
+bonus_icon:
+  extends: bonus
+  width: 150
+
 snark:
-  extends: description
+  extends: bonus
   font: Times New Roman,Serif Italic 18
   y: 1000
   valign: bottom

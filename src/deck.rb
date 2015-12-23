@@ -74,25 +74,25 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   end
   text str: data['VP'], layout: 'vp', color: bg
 
-  text(str: data['Description'], layout: 'description') do |embed|
+  text(str: data['Description'], layout: :bonus_text) do |embed|
     %w(Wood Steel Stone Gold).each do |res|
       embed.svg key: res, file: "img/#{mode}/resource_embed_#{res.downcase}.svg", dy: -5, width: 52, height: :scale
     end
   end
 
   with_desc = data['Description'].each.with_index.map { |x, i| x.nil? ? nil : i }.compact
-  rect range: with_desc, layout: 'description'
+  rect range: with_desc, layout: :bonus
+  rect range: with_desc, layout: :bonus_icon
 
   text str: data['Snark'], layout: 'snark', alpha: 0.75
 
-  # png file: 'tgc-proof-overlay.png'
+  png file: 'tgc-proof-overlay.png'
 
   # save prefix: "card_#{mode}_#{build}_", format: :png
-  # save_png prefix: "card_#{mode}_", range: id['Obelisk']
-
-  # save_png prefix: "card_#{mode}_", range: id['Robot Golem']
-  # save_png prefix: "card_#{mode}_", range: id['Battle Axe']
-  # save_png prefix: "card_#{mode}_", range: id['Spear']
+  save_png prefix: "card_#{mode}_", range: id['Obelisk']
+  save_png prefix: "card_#{mode}_", range: id['Robot Golem']
+  save_png prefix: "card_#{mode}_", range: id['Battle Axe']
+  save_png prefix: "card_#{mode}_", range: id['Spear']
   save_png prefix: "card_#{mode}_", range: id['Anvil']
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
@@ -100,7 +100,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   # showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
 
   rect layout: 'cut_line'
-  save_pdf dir: "builds", file: "deck_#{mode}_#{build}.pdf", trim: 37.5
+  # save_pdf dir: "builds", file: "deck_#{mode}_#{build}.pdf", trim: 37.5
 
   # rect
   # save_pdf file: "tracer.pdf"
