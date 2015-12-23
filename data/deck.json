@@ -1031,7 +1031,7 @@
     "VPtype": "clothing",
     "GameIcon": "windmill",
     "Type": "build",
-    "Description": "When played, trash this card to build any available blueprint for free.",
+    "Description": "Trash this card to build any available blueprint worth 6 VP or less for free.",
     "Snark": null
   },
   "69": {
@@ -1046,7 +1046,7 @@
     "VPtype": "food",
     "GameIcon": "crossbow",
     "Type": "build",
-    "Description": "When played, trash this card to build any available blueprint for free.",
+    "Description": "Trash this card to build any available blueprint worth 6 VP or less for free.",
     "Snark": null
   },
   "70": {
