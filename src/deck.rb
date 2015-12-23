@@ -2,6 +2,7 @@ require 'pp'
 require 'squib'
 require 'game_icons'
 require 'squib_helpers'
+require_relative 'spider_monkey_version'
 
 mode = ENV['pallete'] # bw or color
 case mode
@@ -96,7 +97,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
   # showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
 
   rect layout: 'cut_line'
-  # save_pdf dir: "builds", file: "deck_#{mode}_#{build}.pdf", trim: 37.5
+  save_pdf dir: "builds", file: "deck_#{mode}_#{build}.pdf", trim: 37.5
 
   # rect
   # save_pdf file: "tracer.pdf"
