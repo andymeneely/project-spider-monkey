@@ -67,11 +67,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
     svg file: icons, layout: "#{res.downcase}_icon"
   end
 
-  rect layout: 'vp_frame', fill_color: fg
-  %w(food shelter clothing).each do |field|
-    icons = data['VPtype'].map { |name| "#{mode}/vp_#{name}.svg" }
-    svg file: icons, layout: "#{field.downcase}_icon"
-  end
+  svg layout: :vp
   text str: data['VP'], layout: 'vp', color: bg
 
   text(str: data['Description'], layout: :bonus_text) do |embed|
@@ -86,14 +82,14 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
 
   text str: data['Snark'], layout: 'snark', alpha: 0.75
 
-  png file: 'tgc-proof-overlay.png'
+  # png file: 'tgc-proof-overlay.png'
 
-  # save prefix: "card_#{mode}_#{build}_", format: :png
-  save_png prefix: "card_#{mode}_", range: id['Obelisk']
-  save_png prefix: "card_#{mode}_", range: id['Robot Golem']
-  save_png prefix: "card_#{mode}_", range: id['Battle Axe']
-  save_png prefix: "card_#{mode}_", range: id['Spear']
-  save_png prefix: "card_#{mode}_", range: id['Anvil']
+  save prefix: "card_#{mode}_#{build}_", format: :png
+  # save_png prefix: "card_#{mode}_#{build}_", range: id['Obelisk']
+  # save_png prefix: "card_#{mode}_#{build}_", range: id['Robot Golem']
+  # save_png prefix: "card_#{mode}_#{build}_", range: id['Battle Axe']
+  # save_png prefix: "card_#{mode}_#{build}_", range: id['Spear']
+  # save_png prefix: "card_#{mode}_#{build}_", range: id['Anvil']
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
 

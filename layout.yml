@@ -53,31 +53,15 @@ gold_rect:
   extends: stone_rect
   y: += 175
 
-vp_frame:
-  extends: gold_amt
-  x: 520
-  y: 710
-  radius: 50
-  width: 500
-  height: 100
 vp:
-  extends: vp_frame
-  x: += 20
-  y: += 10
+  file: vp.svg
+  extends: gold_amt
+  x: 540
+  y: 720
   width: 100
+  height: 100
   font_size: 48
   align: center
-
-food_icon:
-  extends: vp_frame
-  x: += 110
-  width: 100
-
-shelter_icon:
-  extends: food_icon
-
-clothing_icon:
-  extends: shelter_icon
 
 art_frame:
   radius: 25
