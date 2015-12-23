@@ -1,4 +1,5 @@
 _output/*.png
 _output/*.pdf
+_output/*.svg
 ~$*
 .DS_Store
