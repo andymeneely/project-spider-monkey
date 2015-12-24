@@ -2,7 +2,7 @@ require 'game_icons'
 require 'json'
 require 'spider_monkey_version'
 
-def build
+def version
   SpiderMonkey::VERSION
 end
 

@@ -4,6 +4,7 @@ require 'game_icons'
 require 'squib_helpers'
 require_relative 'spider_monkey_version'
 require_relative 'refinements'
+require_relative 'build_groups'
 using Squib::Refinements
 
 mode = ENV['pallete'] # bw or color
@@ -41,15 +42,21 @@ end
 data = Squib.xlsx file: 'data/deck.xlsx'
 id = data['Name'].index_lookups
 
-Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
+Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   background color: bg
 
-  # Illustration on the bottom
-  case mode
-  when 'bw'
+  enable_group :bw
+  # enable_group :sheets
+  enable_group :test_cases
+  # enable_group :singles
+  # enable_group :hands
+
+  group :bw do
     load_bw_art_icons data['GameIcon']
     svg layout: 'art', file: data['GameIcon'].map { |art| "#{mode}/art_#{art}.svg" }
-  when 'color'
+  end
+
+  group :color do
     files = data['GameIcon'].map do |a|
       f = "color/art_#{a}.png"
       File.exist?("img/#{f}") ? f : nil
@@ -83,31 +90,43 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml',) do
 
   text str: data['Snark'], layout: 'snark', alpha: 0.75
 
-  # png file: 'tgc-proof-overlay.png'
+  png file: 'tgc-proof-overlay.png'
 
-  save prefix: "card_#{mode}_#{build}_", format: :png
-  # save_png prefix: "card_#{mode}_#{build}_", range: id['Obelisk']
-  # save_png prefix: "card_#{mode}_#{build}_", range: id['Robot Golem']
-  # save_png prefix: "card_#{mode}_#{build}_", range: id['Battle Axe']
-  # save_png prefix: "card_#{mode}_#{build}_", range: id['Spear']
-  # save_png prefix: "card_#{mode}_#{build}_", range: id['Anvil']
+  group :singles do
+    save prefix: "card_#{mode}_#{version}_", format: :png
+  end
+
+  group :test_cases do
+    save_png prefix: "card_#{mode}_#{version}_", range: id['Obelisk']
+    save_png prefix: "card_#{mode}_#{version}_", range: id['Robot Golem']
+    save_png prefix: "card_#{mode}_#{version}_", range: id['Battle Axe']
+    save_png prefix: "card_#{mode}_#{version}_", range: id['Spear']
+    save_png prefix: "card_#{mode}_#{version}_", range: id['Anvil']
+  end
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
 
-  # showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
+  group :showcase do
+    showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
+  end
 
   rect layout: 'cut_line'
-  save_pdf dir: "builds", file: "deck_#{mode}_#{build}.pdf", trim: 37.5
 
-  # rect
-  # save_pdf file: "tracer.pdf"
+  group :pdfs do
+    save_pdf dir: "builds", file: "deck_#{mode}_#{version}.pdf", trim: 37.5
+  end
 
-  # save_sheet range: whats_changed, prefix: 'whats_changed_'
+  group :changed do
+    save_sheet range: whats_changed, prefix: 'whats_changed_'
+  end
 
-  # rect layout: 'outline'
-  # 20.times do |i|
-  #   hand range: (0..size-1).to_a.sample(5).sort, trim: 37.5, trim_radius: 25, file: "hand_#{mode}_#{'%02d' % i}.png"
-  # end
+  group :hands do
+    rect layout: 'outline'
+    20.times do |i|
+      random_5 = (0..size-1).to_a.sample(5).sort
+      hand range: random_5, trim: 37.5, trim_radius: 25, file: "hand_#{mode}_#{'%02d' % i}.png"
+    end
+  end
 
 end
 
