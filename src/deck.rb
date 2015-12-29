@@ -4,6 +4,7 @@ require 'game_icons'
 require 'squib_helpers'
 require_relative 'spider_monkey_version'
 require_relative 'refinements'
+require_relative 'svg_effects'
 require_relative 'build_groups'
 using Squib::Refinements
 
@@ -45,11 +46,13 @@ id = data['Name'].index_lookups
 Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   background color: bg
 
-  enable_group :bw
+  enable_group :bw if mode == 'bw'
+  enable_group :color if mode == 'color'
   # enable_group :sheets
   enable_group :test_cases
   # enable_group :singles
-  # enable_group :hands
+  enable_group :hands
+  enable_group :showcase
 
   group :bw do
     load_bw_art_icons data['GameIcon']
@@ -57,12 +60,9 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   end
 
   group :color do
-    files = data['GameIcon'].map do |a|
-      f = "color/art_#{a}.png"
-      File.exist?("img/#{f}") ? f : nil
-    end
-    # png file: files #, blend: 'multiply' #, alpha: 0.65
-    # png file: 'color/grid.png', blend: 'multiply' #, alpha: 0.65
+    png file: 'color/grid.png', blend: 'multiply', width: 300, height: :scale,
+        x: 400, y: 200
+    svg layout: 'art', data: data['GameIcon'].map { |gi| SvgEffects.drawing(gi) }
   end
 
   text str: data['Name'], layout: 'name', color: fg
