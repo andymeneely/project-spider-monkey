@@ -53,7 +53,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
 
   group :bw do
     load_bw_art_icons data['GameIcon']
-    svg layout: 'art', file: data['GameIcon'].map { |art| "#{mode}/art_#{art}.svg" }
+    svg layout: 'art', file: data['GameIcon'].map { |art| "bw/art_#{art}.svg" }
   end
 
   group :color do
@@ -61,7 +61,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
       f = "color/art_#{a}.png"
       File.exist?("img/#{f}") ? f : nil
     end
-    png file: files #, blend: 'multiply' #, alpha: 0.65
+    # png file: files #, blend: 'multiply' #, alpha: 0.65
     # png file: 'color/grid.png', blend: 'multiply' #, alpha: 0.65
   end
 
