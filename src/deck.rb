@@ -53,6 +53,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   # enable_group :singles
   enable_group :hands
   enable_group :showcase
+  # enable_group :proof
 
   group :bw do
     load_bw_art_icons data['GameIcon']
@@ -90,7 +91,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
 
   text str: data['Snark'], layout: 'snark', alpha: 0.75
 
-  png file: 'tgc-proof-overlay.png'
+  group(:proof) { png file: 'tgc-proof-overlay.png' }
 
   group :singles do
     save prefix: "card_#{mode}_#{version}_", format: :png

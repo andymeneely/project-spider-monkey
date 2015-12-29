@@ -1,6 +1,6 @@
 name:
   align: center
-  font: Montserrat Black 52
+  font: Montserrat Black,Sans Bold 52
   x: 75
   y: 75
   width: 675
@@ -8,7 +8,7 @@ name:
 wood_amt:
   y: 185
   align: center
-  font: Montserrat Black 55
+  font: Montserrat Black,Sans Bold 55
   x: 60
   width: 75
   height: 100
@@ -55,8 +55,8 @@ gold_rect:
 
 vp:
   file: vp.svg
-  extends: gold_amt
-  x: 540
+  extends: wood_amt
+  x: 650
   y: 720
   width: 100
   height: 100
