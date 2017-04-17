@@ -12,9 +12,13 @@ A PDF build is always available in the `builds` folder in the repository. Be sur
 
 The game will have two versions: a color copy and a printer-friendly black-and-white copy, called `game_color_vZZZ.pdf` and `game_bw_vZZZ.pdf` (where ZZZ is the build number).
 
+The game will be easy to translate : no text will be included in assets, all the text will stay in the spreadsheet file. To build the game in a foreign language, you only have to edit deck.rb and change the language.
+
 The instructions can be found in `INSTRUCTIONS.md`.
 
 We will also do our best to maintain "patch" PDFs, which are PDFs that have only the parts of the game that have changed from the prior version. That is, if the difference between the builds changes only a few cards, then you can print out only the new ones and update your game quickly.
+
+The same applies to the rules, differences between revisions should always be available.
 
 For best results, I recommend getting [these sleeves](http://www.amazon.com/Clear-Sleeves-Standard-Card-Game/dp/1589945158/ref=sr_1_1?ie=UTF8&qid=1440986654&sr=8-1&keywords=card+sleeves+fantasy+flight) and cutting out your cards with a paper cutter [like this](http://www.amazon.com/Fiskars-Portable-Scrapbooking-Trimmer-196920-1001/dp/B0017KYE5Y/ref=pd_sim_201_1?ie=UTF8&refRID=1WT4X7KG510X1949037C&dpSrc=sims&dpST=_AC_UL320_SR228%2C320_). I like to put cardstock into the sleeve too to give the cards more thickness and springiness.
 
