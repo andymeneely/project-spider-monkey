@@ -1,6 +1,6 @@
 name:
   align: center
-  font: Montserrat Black,Sans Bold 52
+  font: Montserrat Black,Sans Bold 16
   x: 75
   y: 75
   width: 675
@@ -8,7 +8,7 @@ name:
 wood_amt:
   y: 185
   align: center
-  font: Montserrat Black,Sans Bold 55
+  font: Montserrat Black,Sans Bold 17
   x: 60
   width: 75
   height: 100
@@ -60,7 +60,7 @@ vp:
   y: 720
   width: 100
   height: 100
-  font_size: 48
+  font_size: 15
   align: center
 
 art_frame:
@@ -81,7 +81,7 @@ bonus:
   y: 850
   width: 675
   height: 150
-  font: Times New Roman,Serif 30
+  font: Times New Roman,Serif 10
   align: center
   valign: middle
 bonus_text:
@@ -94,7 +94,7 @@ bonus_icon:
 
 snark:
   extends: bonus
-  font: Times New Roman,Serif Italic 18
+  font: Times New Roman,Serif Italic 7
   y: 1000
   valign: bottom
   height: 50
