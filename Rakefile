@@ -1,6 +1,11 @@
 require 'squib'
-$LOAD_PATH.unshift "#{File.dirname(__FILE__)}/src"
-require 'spider_monkey_version'
+require 'rake/clean'
+
+require_relative 'src/squib_helpers'
+require_relative 'src/version'
+
+# Add Rake's clean & clobber tasks
+CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'Build black-and-white only'
 task default: [:bw]
