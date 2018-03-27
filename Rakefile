@@ -11,7 +11,7 @@ desc 'Build black-and-white only'
 task default: [:bw]
 
 desc 'Build both bw and color'
-task all: [:bw, :color]
+task all: [:with_pdf, :bw, :color]
 
 desc 'Build black-and-white only'
 task :bw do
@@ -38,4 +38,9 @@ task :badge do
   require 'erb'
   svg = ERB.new(File.read('src/build-badge.svg.erb')).result(binding)
   File.open('build-badge.svg', 'w+') { |f| f.write(svg) }
+end
+
+desc 'Enable PDF build'
+task :with_pdf do
+  Squib.enable_build_globally :pdfs
 end

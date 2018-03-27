@@ -86,8 +86,8 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
     end
   end
 
-  rect range: data['Description'].non_nil_indices, layout: :bonus
-  rect range: data['Description'].non_nil_indices, layout: :bonus_icon
+  # rect range: data['Description'].non_nil_indices, layout: :bonus
+  # rect range: data['Description'].non_nil_indices, layout: :bonus_icon
 
   text str: data['Snark'], layout: 'snark', alpha: 0.75
 
@@ -104,6 +104,8 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
     save_png prefix: "card_#{mode}_#{version}_", range: id['Spear']
     save_png prefix: "card_#{mode}_#{version}_", range: id['Anvil']
   end
+
+  # save_png
 
   save_json cards: @cards.size, deck: data, file: "data/deck.json"
 

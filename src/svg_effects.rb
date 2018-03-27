@@ -7,12 +7,24 @@ module SvgEffects
     doc.css('svg')[0]['viewBox'] = '0 0 518 518'
     doc.css('path')[0]['fill-opacity'] = 0.0
 
-    # doc.css('path')[1]['fill'] = '#fff'
-    doc.css('path')[1]['fill-opacity'] = 0.0
-    doc.css('path')[1]['stroke-width'] = 6
-    doc.css('path')[1]['stroke'] = '#000'
-    # doc.css('path')[1]['stroke-opacity'] = 0.7
+    # Duplicate the lineart
+    doc.at_css('svg').add_child doc.css('path')[1].dup
+
+    # Color it, no stroke
+    doc.css('path')[1]['fill'] = '#ccc'
+    doc.css('path')[1]['fill-opacity'] = 1.0
+    doc.css('path')[1]['stroke-width'] = 20
+    doc.css('path')[1]['stroke'] = '#ccc'
     doc.css('path')[1]['style'] = 'filter:url(#lapping);'
+
+    # Make a sketchy stroke
+    doc.css('path')[2]['fill'] = '#fff'
+    doc.css('path')[2]['fill-opacity'] = 0.0
+    doc.css('path')[2]['stroke-width'] = 6
+    doc.css('path')[2]['stroke'] = '#000'
+    # doc.css('path')[1]['stroke-opacity'] = 0.7
+    doc.css('path')[2]['style'] = 'filter:url(#lapping);'
+
     return doc.to_xml
   end
   module_function :drawing

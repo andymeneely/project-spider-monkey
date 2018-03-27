@@ -86,8 +86,8 @@ bonus:
   valign: middle
 bonus_text:
   extends: bonus
-  x: 225
-  width: 525
+  x: 75
+  width: 675
 bonus_icon:
   extends: bonus
   width: 150
