@@ -1,0 +1,75 @@
+body {
+  font-family: Serif;
+  font-size: 12pt;
+  /*columns: 2;*/
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+table {
+  font-size: inherit;
+  page-break-inside: avoid;
+}
+
+th,td {
+  border: 1px solid black;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+h1 {
+  font-family: Sans-Serif;
+  font-weight: bolder;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: Sans-Serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-family: Sans-Serif;
+  font-weight: bold;
+  font-size: 1.0em;
+  margin-bottom: 0;
+}
+
+.clear-both {
+  clear: both;
+}
+
+blockquote {
+  margin-left: 15pt;
+  border-left: 3pt double #000;
+  padding-left: 10pt;
+  font-size: 90%;
+}
+
+.tip {
+  margin-left: 15pt;
+  border-left: 3pt double #888888;
+  padding-left: 2pt;
+}
+
+.pagebreak{
+  page-break-after: always;
+}
+
+ul {
+  list-style-type: disc;
+}

@@ -44,3 +44,31 @@ desc 'Enable PDF build'
 task :with_pdf do
   Squib.enable_build_globally :pdfs
 end
+
+
+desc 'Build the rules PDF'
+task rules: ['rules:md_to_html','rules:html_to_pdf']
+
+namespace :rules do
+  task :md_to_html do
+    load 'src/rules.rb' # convert markdown
+    # Embed into HTML CSS
+    erb = ERB.new(File.read('docs/RULES_TEMPLATE.html.erb'))
+    File.open('docs/RULES.html', 'w+') do |html|
+      html.write(erb.result)
+    end
+  end
+
+  task html_to_pdf: [:md_to_html] do
+    sh <<-EOS.gsub(/\n/, '')
+      wkhtmltopdf
+      --page-width    3.5in
+      --page-height   5.0in
+      --margin-left   0.15in
+      --margin-right  0.15in
+      --margin-bottom 0.15in
+      --margin-top    0.15in
+        docs/RULES.html _output/RULES.pdf
+    EOS
+  end
+end
