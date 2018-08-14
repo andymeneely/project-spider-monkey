@@ -50,8 +50,8 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   enable_group :bw if mode == 'bw'
   enable_group :color if mode == 'color'
   # enable_group :sheets
-  # enable_group :test_cases
-  enable_group :singles
+  enable_group :test_cases
+  # enable_group :singles
   # enable_group :hands
   # enable_group :showcase
   # enable_group :proof
@@ -86,6 +86,8 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
       embed.svg key: res, file: "img/#{mode}/resource_embed_#{res.downcase}.svg", dy: -5, width: 52, height: :scale
     end
   end
+
+  text str: data['AtEnd'], layout: :at_game_end, color: bg
 
   # rect range: data['Description'].non_nil_indices, layout: :bonus
   # rect range: data['Description'].non_nil_indices, layout: :bonus_icon

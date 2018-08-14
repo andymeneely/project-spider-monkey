@@ -92,6 +92,13 @@ bonus_icon:
   extends: bonus
   width: 150
 
+at_game_end:
+  font: Sans Bold 9
+  x: 720
+  y: 730
+  width: 50
+  height: 50
+
 snark:
   extends: bonus
   font: Times New Roman,Serif Italic 7
