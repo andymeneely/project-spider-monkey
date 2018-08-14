@@ -12,7 +12,8 @@ mode = ENV['pallete'] # bw or color
 case mode
 when 'color'
   fg = '#28221b' # dark
-  bg = '#FFDCAA' # light
+  # bg = '#FFDCAA' # light tan
+  bg = '#DDD2C3' # light gray
 
   pallete = {
     'Wood' => '#553200',
@@ -49,10 +50,10 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   enable_group :bw if mode == 'bw'
   enable_group :color if mode == 'color'
   # enable_group :sheets
-  enable_group :test_cases
-  # enable_group :singles
-  enable_group :hands
-  enable_group :showcase
+  # enable_group :test_cases
+  enable_group :singles
+  # enable_group :hands
+  # enable_group :showcase
   # enable_group :proof
 
   group :bw do

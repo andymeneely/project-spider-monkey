@@ -11,10 +11,10 @@ module SvgEffects
     doc.at_css('svg').add_child doc.css('path')[1].dup
 
     # Color it, no stroke
-    doc.css('path')[1]['fill'] = '#ccc'
+    doc.css('path')[1]['fill'] = '#9B876C'
     doc.css('path')[1]['fill-opacity'] = 1.0
-    doc.css('path')[1]['stroke-width'] = 20
-    doc.css('path')[1]['stroke'] = '#ccc'
+    doc.css('path')[1]['stroke-width'] = 0
+    doc.css('path')[1]['stroke'] = '#9B876C'
     doc.css('path')[1]['style'] = 'filter:url(#lapping);'
 
     # Make a sketchy stroke

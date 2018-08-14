@@ -5,7 +5,7 @@ require_relative 'squib_helpers'
 data = Squib.xlsx file: 'data/deck.xlsx'
 data = explode_quantities(data)
 
-light = "#FFDCAA" #light yellow-ish
+light = "#DDD2C3" #light yellow-ish
 dark  = "#28221b" #dark grayish
 
 res_map = {
