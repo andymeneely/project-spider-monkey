@@ -1,0 +1,1770 @@
+            ╭------------------------------------╮
+       Name | A Log                              |
+        Qty | 8                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | log                                |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Building must start somewhere.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Log                              |
+        Qty | 8                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | log                                |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Building must start somewhere.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Log                              |
+        Qty | 8                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | log                                |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Building must start somewhere.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Log                              |
+        Qty | 8                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | log                                |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Building must start somewhere.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Log                              |
+        Qty | 8                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | log                                |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Building must start somewhere.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Log                              |
+        Qty | 8                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | log                                |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Building must start somewhere.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Log                              |
+        Qty | 8                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | log                                |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Building must start somewhere.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Log                              |
+        Qty | 8                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | log                                |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Building must start somewhere.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Bunch of Logs                      |
+        Qty | 8                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | wood-pile                          |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Let's get started.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Bunch of Logs                      |
+        Qty | 8                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | wood-pile                          |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Let's get started.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Bunch of Logs                      |
+        Qty | 8                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | wood-pile                          |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Let's get started.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Bunch of Logs                      |
+        Qty | 8                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | wood-pile                          |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Let's get started.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Bunch of Logs                      |
+        Qty | 8                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | wood-pile                          |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Let's get started.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Bunch of Logs                      |
+        Qty | 8                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | wood-pile                          |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Let's get started.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Bunch of Logs                      |
+        Qty | 8                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | wood-pile                          |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Let's get started.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Bunch of Logs                      |
+        Qty | 8                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | wood-pile                          |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Let's get started.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Rusted Gears                       |
+        Qty | 4                                  |
+       Wood |                                    |
+      Steel | 3                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gears                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Lest we forget, steampunk is a fan |
+            | tasy.                              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Rusted Gears                       |
+        Qty | 4                                  |
+       Wood |                                    |
+      Steel | 3                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gears                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Lest we forget, steampunk is a fan |
+            | tasy.                              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Rusted Gears                       |
+        Qty | 4                                  |
+       Wood |                                    |
+      Steel | 3                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gears                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Lest we forget, steampunk is a fan |
+            | tasy.                              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Rusted Gears                       |
+        Qty | 4                                  |
+       Wood |                                    |
+      Steel | 3                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gears                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Lest we forget, steampunk is a fan |
+            | tasy.                              |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pile of Nails                      |
+        Qty | 8                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | nails                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Just don't get tetanus.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pile of Nails                      |
+        Qty | 8                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | nails                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Just don't get tetanus.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pile of Nails                      |
+        Qty | 8                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | nails                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Just don't get tetanus.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pile of Nails                      |
+        Qty | 8                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | nails                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Just don't get tetanus.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pile of Nails                      |
+        Qty | 8                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | nails                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Just don't get tetanus.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pile of Nails                      |
+        Qty | 8                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | nails                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Just don't get tetanus.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pile of Nails                      |
+        Qty | 8                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | nails                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Just don't get tetanus.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pile of Nails                      |
+        Qty | 8                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | nails                              |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Just don't get tetanus.            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Stone                            |
+        Qty | 16                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | stone-block                        |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Build it strong, build it right.   |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | A Gold Bar                         |
+        Qty | 12                                 |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 0                                  |
+      VPAdj |                                    |
+   GameIcon | gold-bar                           |
+       Type | 0 starter                          |
+      AtEnd |                                    |
+Description | May also be used for any 1 Resourc |
+            | e.                                 |
+      Snark | Behold the power of purchase.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Ancient Throne                     |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold | 1                                  |
+         VP | 6                                  |
+      VPAdj |                                    |
+   GameIcon | stone-throne                       |
+       Type | ancient                            |
+      AtEnd | *                                  |
+Description | *At game end, +2 VP for two Ancien |
+            | t artifacts, and +4 VP for three A |
+            | ncient artifacts                   |
+      Snark | Great for making decrees.          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Ancient Armor                      |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 6                                  |
+      VPAdj |                                    |
+   GameIcon | overlord-helm                      |
+       Type | ancient                            |
+      AtEnd | *                                  |
+Description | *At game end, +2 VP for two Ancien |
+            | t artifacts, and +4 VP for three A |
+            | ncient artifacts                   |
+      Snark | To war!                            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Ancient Pyramid                    |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel | 2                                  |
+      Stone | 1                                  |
+       Gold | 1                                  |
+         VP | 6                                  |
+      VPAdj |                                    |
+   GameIcon | mayan-pyramid                      |
+       Type | ancient                            |
+      AtEnd | *                                  |
+Description | *At game end, +2 VP for two Ancien |
+            | t artifacts, and +4 VP for three A |
+            | ncient artifacts                   |
+      Snark | Great for naps or eternal rest!    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Ladder                             |
+        Qty | 1                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 1                                  |
+      VPAdj |                                    |
+   GameIcon | hole-ladder                        |
+       Type | draw                               |
+      AtEnd |                                    |
+Description | Draw a card from your deck. If it  |
+            | contains Wood, draw one more card. |
+            |                                    |
+      Snark | Let the wood times roll!           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Magnet                             |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel | 2                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 2                                  |
+      VPAdj | -1                                 |
+   GameIcon | magnet                             |
+       Type | draw                               |
+      AtEnd |                                    |
+Description | Draw a card from your deck. If it  |
+            | contains Steel, draw one more card |
+            | .                                  |
+      Snark | Just get out of the way of the fly |
+            | ing shards.                        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Chest                              |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 2                                  |
+      VPAdj |                                    |
+   GameIcon | open-chest                         |
+       Type | draw                               |
+      AtEnd |                                    |
+Description | Draw a card from your deck. If it  |
+            | contains Wood or Steel, discard it |
+            | .                                  |
+      Snark | Just the heavy stuff, please.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Solid Spade                        |
+        Qty | 1                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 2                                  |
+      VPAdj | -1                                 |
+   GameIcon | spade                              |
+       Type | draw                               |
+      AtEnd |                                    |
+Description | Draw one card from your deck.      |
+      Snark | Most people just call this a shove |
+            | l.                                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Normal Spade                       |
+        Qty | 1                                  |
+       Wood | 1                                  |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 2                                  |
+      VPAdj | -1                                 |
+   GameIcon | spade                              |
+       Type | draw                               |
+      AtEnd |                                    |
+Description | Draw one card from your deck.      |
+      Snark | Most people just call this a shove |
+            | l.                                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Heavy Spade                        |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel | 1                                  |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 2                                  |
+      VPAdj | -1                                 |
+   GameIcon | spade                              |
+       Type | draw                               |
+      AtEnd |                                    |
+Description | Draw one card from your deck.      |
+      Snark | Most people just call this a shove |
+            | l.                                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Boomerang                          |
+        Qty | 1                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 1                                  |
+      VPAdj |                                    |
+   GameIcon | boomerang                          |
+       Type | pass                               |
+      AtEnd |                                    |
+Description | Save 1 Wood this turn. At end of t |
+            | his turn, pass to left and place i |
+            | n opponent's hand.                 |
+      Snark | This one messes up your small deck |
+            |  strategy.                         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Gold Merchant                      |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 2                                  |
+      VPAdj |                                    |
+   GameIcon | scales                             |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description | Save 1 Gold this turn              |
+      Snark | Shiny things! I like shiny things. |
+            |                                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Gold Key                           |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 2                                  |
+      VPAdj |                                    |
+   GameIcon | key                                |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description | Save 1 Gold on items made only of  |
+            | Gold                               |
+      Snark | Are you ready for this kind of com |
+            | mitment?                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pendant                            |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 2                                  |
+         VP | 2                                  |
+      VPAdj | -2                                 |
+   GameIcon | gem-pendant                        |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description | Save 2 Gold this turn              |
+      Snark | Snag this while you can!           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Gold Mine                          |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 2                                  |
+         VP | 4                                  |
+      VPAdj |                                    |
+   GameIcon | gold-mine                          |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description | May also be purchased for 1 Wood,  |
+            | 1 Steel, and 1 Stone.              |
+      Snark | There's gold in them there hills!  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Necklace                           |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 3                                  |
+         VP | 4                                  |
+      VPAdj | -1                                 |
+   GameIcon | gem-necklace                       |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description | May be be purchased for 2 Gold     |
+      Snark | A good deal, indeed.               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Necklace                           |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 3                                  |
+         VP | 4                                  |
+      VPAdj | -1                                 |
+   GameIcon | gem-necklace                       |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description | May be be purchased for 2 Gold     |
+      Snark | A good deal, indeed.               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | War Chest                          |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 4                                  |
+         VP | 6                                  |
+      VPAdj | -1                                 |
+   GameIcon | locked-chest                       |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description | May be purchased for 3 Gold        |
+      Snark | My money. Stay away.               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Chalice                            |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 4                                  |
+         VP | 8                                  |
+      VPAdj | 1                                  |
+   GameIcon | jeweled-chalice                    |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | A retirement plan you can drink fr |
+            | om.                                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Crown                              |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 6                                  |
+         VP | 13                                 |
+      VPAdj | 2                                  |
+   GameIcon | crown                              |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Woah, this really does make my hea |
+            | d heavy.                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Wheelbarrow                        |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 1                                  |
+      VPAdj | -2                                 |
+   GameIcon | wheelbarrow                        |
+       Type | keep                               |
+      AtEnd |                                    |
+Description | You may keep 2 Resources until the |
+            |  next turn                         |
+      Snark | Out of my way!                     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Barrel                             |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel | 2                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 5                                  |
+      VPAdj |                                    |
+   GameIcon | barrel                             |
+       Type | keep                               |
+      AtEnd |                                    |
+Description | You may keep 3 Resources until the |
+            |  next turn                         |
+      Snark | Also great for scaring people.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Barn                               |
+        Qty | 1                                  |
+       Wood | 1                                  |
+      Steel | 1                                  |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 4                                  |
+      VPAdj |                                    |
+   GameIcon | barn                               |
+       Type | small deck                         |
+      AtEnd | *                                  |
+Description | *At game end, +1 VP if your deck a |
+            | nd discard has 10 or fewer cards t |
+            | otal.                              |
+      Snark | Fun fact: not a good place to be b |
+            | orn in.                            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Obelisk                            |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel | 2                                  |
+      Stone | 1                                  |
+       Gold | 1                                  |
+         VP | 9                                  |
+      VPAdj |                                    |
+   GameIcon | obelisk                            |
+       Type | small deck                         |
+      AtEnd | *                                  |
+Description | *At game end, +3 VP if your deck a |
+            | nd discard has 8 or fewer cards to |
+            | tal.                               |
+      Snark | A must-have for the modern surivor |
+            | .                                  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Screwdriver                        |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | screwdriver                        |
+       Type | steel path                         |
+      AtEnd |                                    |
+Description | Save 2 Steel this turn             |
+      Snark | Everyone needs one of these.       |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Smelter                            |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 2                                  |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | thrown-charcoal                    |
+       Type | steel path                         |
+      AtEnd |                                    |
+Description | Save 3 Steel this turn             |
+      Snark | How does smelting actually CREATE  |
+            | things?                            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Horseshoe                          |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel | 3                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 4                                  |
+      VPAdj |                                    |
+   GameIcon | horseshoe                          |
+       Type | steel path                         |
+      AtEnd |                                    |
+Description | May be purchased for 2 Steel or 3  |
+            | Wood                               |
+      Snark | Gesundheit.                        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Horseshoe                          |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel | 3                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 4                                  |
+      VPAdj |                                    |
+   GameIcon | horseshoe                          |
+       Type | steel path                         |
+      AtEnd |                                    |
+Description | May be purchased for 2 Steel or 3  |
+            | Wood                               |
+      Snark | Gesundheit.                        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Anvil                              |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel | 4                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 6                                  |
+      VPAdj |                                    |
+   GameIcon | anvil                              |
+       Type | steel path                         |
+      AtEnd |                                    |
+Description | May be purchased for 3 Steel or 4  |
+            | Wood                               |
+      Snark | Watch your thumbs.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Anvil                              |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel | 4                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 6                                  |
+      VPAdj |                                    |
+   GameIcon | anvil                              |
+       Type | steel path                         |
+      AtEnd |                                    |
+Description | May be purchased for 3 Steel or 4  |
+            | Wood                               |
+      Snark | Watch your thumbs.                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Uzi                                |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel | 5                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 8                                  |
+      VPAdj | 1                                  |
+   GameIcon | uzi                                |
+       Type | steel path                         |
+      AtEnd |                                    |
+Description | May be purchased for 4 Steel or 5  |
+            | Wood                               |
+      Snark | Spray and pray.                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Battle Axe                         |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel | 6                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 9                                  |
+      VPAdj | 1                                  |
+   GameIcon | battle-axe                         |
+       Type | steel path                         |
+      AtEnd |                                    |
+Description | May be purchased for 5 Steel or 6  |
+            | Wood                               |
+      Snark | And my axe.                        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Robot Golem                        |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel | 7                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 10                                 |
+      VPAdj |                                    |
+   GameIcon | robot-golem                        |
+       Type | steel path                         |
+      AtEnd | *                                  |
+Description | *At game end, +1 VP per card that  |
+            | contains Steel, including this one |
+            | .                                  |
+      Snark | Wait, when did this game get futur |
+            | istic?!?!?                         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Spear                              |
+        Qty | 1                                  |
+       Wood | 1                                  |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | stone-spear                        |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description | Save 1 Stone this turn             |
+      Snark | Make sure you use the pointy end.  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Rockslide                          |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel | 2                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | falling-rocks                      |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description | Save 1 Stone this turn             |
+      Snark | You know, most people run from roc |
+            | kslides.                           |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Mining Pick                        |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | mining                             |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description | Save 1 Stone this turn             |
+      Snark | We'll strike gold one of these day |
+            | s!                                 |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Stone Wheel                        |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 2                                  |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | stone-wheel                        |
+       Type | stone path                         |
+      AtEnd | *                                  |
+Description | *At game end, +3 VP if you have tw |
+            | o Stone Wheels (count this bonus o |
+            | nce)                               |
+      Snark | You can rebuild it, just don't rei |
+            | nvent it.                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Stone Wheel                        |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 2                                  |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | stone-wheel                        |
+       Type | stone path                         |
+      AtEnd | *                                  |
+Description | *At game end, +3 VP if you have tw |
+            | o Stone Wheels (count this bonus o |
+            | nce)                               |
+      Snark | You can rebuild it, just don't rei |
+            | nvent it.                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Stone Pile                         |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel | 2                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | stone-pile                         |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | We used the steel to collect the s |
+            | tones, duh!                        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Stone Pile                         |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel | 2                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj |                                    |
+   GameIcon | stone-pile                         |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | We used the steel to collect the s |
+            | tones, duh!                        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Pulley System                      |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel |                                    |
+      Stone | 2                                  |
+       Gold |                                    |
+         VP | 5                                  |
+      VPAdj | -1                                 |
+   GameIcon | pulley-hook                        |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description | Save 1 Stone this turn             |
+      Snark | Simple machines always come in han |
+            | dy.                                |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Stone Tablet                       |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 3                                  |
+       Gold |                                    |
+         VP | 6                                  |
+      VPAdj | 1                                  |
+   GameIcon | stone-tablet                       |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Great for historical records until |
+            |  you drop them.                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Stone Tablet                       |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 3                                  |
+       Gold |                                    |
+         VP | 6                                  |
+      VPAdj | 1                                  |
+   GameIcon | stone-tablet                       |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Great for historical records until |
+            |  you drop them.                    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Rune Stone                         |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 2                                  |
+       Gold | 2                                  |
+         VP | 8                                  |
+      VPAdj | 1                                  |
+   GameIcon | rune-stone                         |
+       Type | stone path                         |
+      AtEnd |                                    |
+Description |                                    |
+      Snark | Sorry, no magical powers here.     |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Medieval Turret                    |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 6                                  |
+       Gold |                                    |
+         VP | 9                                  |
+      VPAdj |                                    |
+   GameIcon | stone-tower                        |
+       Type | stone path                         |
+      AtEnd | *                                  |
+Description | *At game end, 1 VP for every three |
+            |  cards in deck                     |
+      Snark | Obelisks and Turrets don't mix. Ju |
+            | st sayin'.                         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Windmill                           |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj | -1                                 |
+   GameIcon | windmill                           |
+       Type | build                              |
+      AtEnd |                                    |
+Description | Trash this card to build any avail |
+            | able blueprint worth 6 VP or less  |
+            | for free.                          |
+      Snark | Windmill, or windfall??            |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Crossbow                           |
+        Qty | 1                                  |
+       Wood | 1                                  |
+      Steel | 2                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj | -1                                 |
+   GameIcon | crossbow                           |
+       Type | build                              |
+      AtEnd |                                    |
+Description | Trash this card to build any avail |
+            | able blueprint worth 6 VP or less  |
+            | for free.                          |
+      Snark | We don't illustrate how a crossbow |
+            |  was used to accomplish this.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Robot Arm                          |
+        Qty | 1                                  |
+       Wood | 2                                  |
+      Steel | 2                                  |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 5                                  |
+      VPAdj | -2                                 |
+   GameIcon | mechanical-arm                     |
+       Type | build                              |
+      AtEnd |                                    |
+Description | You may build any card in any row  |
+            | this turn.                         |
+      Snark | The coding should be the easiest p |
+            | art.                               |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Stone Axe                          |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 1                                  |
+       Gold |                                    |
+         VP | 2                                  |
+      VPAdj |                                    |
+   GameIcon | wood-axe                           |
+       Type | wood path                          |
+      AtEnd |                                    |
+Description | Save 2 Wood this turn              |
+      Snark | It's made of stone, but for wood.  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Small Crate                        |
+        Qty | 2                                  |
+       Wood | 3                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj | -1                                 |
+   GameIcon | wooden-crate                       |
+       Type | wood path                          |
+      AtEnd |                                    |
+Description | May be purchased for 3 Steel       |
+      Snark | Good for carrying stuff. If you ca |
+            | n carry it.                        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Small Crate                        |
+        Qty | 2                                  |
+       Wood | 3                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 3                                  |
+      VPAdj | -1                                 |
+   GameIcon | wooden-crate                       |
+       Type | wood path                          |
+      AtEnd |                                    |
+Description | May be purchased for 3 Steel       |
+      Snark | Good for carrying stuff. If you ca |
+            | n carry it.                        |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Medium Crate                       |
+        Qty | 2                                  |
+       Wood | 4                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 4                                  |
+      VPAdj | -1                                 |
+   GameIcon | wooden-crate                       |
+       Type | wood path                          |
+      AtEnd |                                    |
+Description | May be purchased for 4 Steel or 2  |
+            | Stone                              |
+      Snark | Even better for carrying stuff.    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Medium Crate                       |
+        Qty | 2                                  |
+       Wood | 4                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 4                                  |
+      VPAdj | -1                                 |
+   GameIcon | wooden-crate                       |
+       Type | wood path                          |
+      AtEnd |                                    |
+Description | May be purchased for 4 Steel or 2  |
+            | Stone                              |
+      Snark | Even better for carrying stuff.    |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Sign Post                          |
+        Qty | 2                                  |
+       Wood | 5                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 7                                  |
+      VPAdj |                                    |
+   GameIcon | wooden-sign                        |
+       Type | wood path                          |
+      AtEnd |                                    |
+Description | May be purchased for 4 Steel or 3  |
+            | Stone                              |
+      Snark | This way!                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Sign Post                          |
+        Qty | 2                                  |
+       Wood | 5                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 7                                  |
+      VPAdj |                                    |
+   GameIcon | wooden-sign                        |
+       Type | wood path                          |
+      AtEnd |                                    |
+Description | May be purchased for 4 Steel or 3  |
+            | Stone                              |
+      Snark | This way!                          |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Wizard Staff                       |
+        Qty | 1                                  |
+       Wood | 4                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 1                                  |
+         VP | 8                                  |
+      VPAdj | 1                                  |
+   GameIcon | wizard-staff                       |
+       Type | wood path                          |
+      AtEnd | *                                  |
+Description | *At game end, +2 VP if deck contai |
+            | ns 4 Wood besides this card.       |
+      Snark | Wizards have expensive taste.      |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Galleon                            |
+        Qty | 1                                  |
+       Wood | 7                                  |
+      Steel |                                    |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 9                                  |
+      VPAdj |                                    |
+   GameIcon | galleon                            |
+       Type | wood path                          |
+      AtEnd | *                                  |
+Description | *At game end, +1 VP per Wood in an |
+            | y cards except this one.           |
+      Snark | The wood cost is just an estimate. |
+            |                                    |
+            ╰------------------------------------╯

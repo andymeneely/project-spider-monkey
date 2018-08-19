@@ -50,10 +50,11 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   enable_group :bw if mode == 'bw'
   enable_group :color if mode == 'color'
   # enable_group :sheets
-  enable_group :test_cases
-  # enable_group :singles
-  # enable_group :hands
-  # enable_group :showcase
+  # enable_group :test_cases
+  enable_group :singles
+  enable_group :hands
+  enable_group :showcase
+  enable_group :pdfs
   # enable_group :proof
 
   group :bw do
@@ -110,7 +111,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
 
   # save_png
 
-  save_json cards: @cards.size, deck: data, file: "data/deck.json"
+  save_plaintext data, file: "data/deck.txt"
 
   group :showcase do
     showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
