@@ -5,5 +5,5 @@ module SpiderMonkey
   # MINOR - bump when you make usability fixes, but it's the same game
   # My convention: .alpha means this is under development.
   # 4.0.alpha < 4.0 because 4.0.alpha is "4.0 in progress"
-  VERSION = '4.0.alpha'
+  VERSION = '5.0'
 end
