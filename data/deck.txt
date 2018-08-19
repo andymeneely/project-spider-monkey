@@ -663,7 +663,7 @@ Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -679,7 +679,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -695,7 +695,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -711,7 +711,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -727,7 +727,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -743,7 +743,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -759,7 +759,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -775,7 +775,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -791,7 +791,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -807,7 +807,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -823,7 +823,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -839,7 +839,7 @@ Description | May also be used for any 1 Resourc |
       Snark | Behold the power of purchase.      |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | A Gold Bar                         |
+       Name | Gold Ingot                         |
         Qty | 12                                 |
        Wood |                                    |
       Steel |                                    |
@@ -866,9 +866,9 @@ Description | May also be used for any 1 Resourc |
    GameIcon | stone-throne                       |
        Type | ancient                            |
       AtEnd | *                                  |
-Description | *At game end, +2 VP for two Ancien |
-            | t artifacts, and +4 VP for three A |
-            | ncient artifacts                   |
+Description | *At game end, gain 2/5 VP if you h |
+            | ave 2/3 Ancient artifacts (count t |
+            | his bonus only once)               |
       Snark | Great for making decrees.          |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -883,10 +883,11 @@ Description | *At game end, +2 VP for two Ancien |
    GameIcon | overlord-helm                      |
        Type | ancient                            |
       AtEnd | *                                  |
-Description | *At game end, +2 VP for two Ancien |
-            | t artifacts, and +4 VP for three A |
-            | ncient artifacts                   |
-      Snark | To war!                            |
+Description | *At game end, gain 2/5 VP if you h |
+            | ave 2/3 Ancient artifacts (count t |
+            | his bonus only once)               |
+      Snark | Nobody tell him that gold is too s |
+            | oft for armor.                     |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Ancient Pyramid                    |
@@ -900,9 +901,9 @@ Description | *At game end, +2 VP for two Ancien |
    GameIcon | mayan-pyramid                      |
        Type | ancient                            |
       AtEnd | *                                  |
-Description | *At game end, +2 VP for two Ancien |
-            | t artifacts, and +4 VP for three A |
-            | ncient artifacts                   |
+Description | *At game end, gain 2/5 VP if you h |
+            | ave 2/3 Ancient artifacts (count t |
+            | his bonus only once)               |
       Snark | Great for naps or eternal rest!    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -941,44 +942,11 @@ Description | Draw a card from your deck. If it  |
             | ing shards.                        |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Chest                              |
-        Qty | 1                                  |
-       Wood |                                    |
-      Steel |                                    |
-      Stone | 1                                  |
-       Gold |                                    |
-         VP | 2                                  |
-      VPAdj |                                    |
-   GameIcon | open-chest                         |
-       Type | draw                               |
-      AtEnd |                                    |
-Description | Draw a card from your deck. If it  |
-            | contains Wood or Steel, discard it |
-            | .                                  |
-      Snark | Just the heavy stuff, please.      |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Solid Spade                        |
         Qty | 1                                  |
        Wood | 1                                  |
       Steel |                                    |
       Stone | 1                                  |
-       Gold |                                    |
-         VP | 2                                  |
-      VPAdj | -1                                 |
-   GameIcon | spade                              |
-       Type | draw                               |
-      AtEnd |                                    |
-Description | Draw one card from your deck.      |
-      Snark | Most people just call this a shove |
-            | l.                                 |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Normal Spade                       |
-        Qty | 1                                  |
-       Wood | 1                                  |
-      Steel | 1                                  |
-      Stone |                                    |
        Gold |                                    |
          VP | 2                                  |
       VPAdj | -1                                 |
@@ -1015,13 +983,29 @@ Description | Draw one card from your deck.      |
          VP | 1                                  |
       VPAdj |                                    |
    GameIcon | boomerang                          |
-       Type | pass                               |
+       Type | interactive                        |
       AtEnd |                                    |
-Description | Save 1 Wood this turn. At end of t |
-            | his turn, pass to left and place i |
-            | n opponent's hand.                 |
+Description | Save 2 Wood this turn. Pass to ano |
+            | ther player of your choice at the  |
+            | end of your turn.                  |
       Snark | This one messes up your small deck |
             |  strategy.                         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Fireball                           |
+        Qty | 1                                  |
+       Wood | 1                                  |
+      Steel | 1                                  |
+      Stone |                                    |
+       Gold |                                    |
+         VP | 4                                  |
+      VPAdj | 1                                  |
+   GameIcon | burning-meteor                     |
+       Type | interactive                        |
+      AtEnd |                                    |
+Description | Trash this card to trash any two c |
+            | ards in any row.                   |
+      Snark | Will you pull the trigger?         |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Gold Merchant                      |
@@ -1073,7 +1057,23 @@ Description | Save 2 Gold this turn              |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Gold Mine                          |
-        Qty | 1                                  |
+        Qty | 2                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone |                                    |
+       Gold | 2                                  |
+         VP | 4                                  |
+      VPAdj |                                    |
+   GameIcon | gold-mine                          |
+       Type | gold path                          |
+      AtEnd |                                    |
+Description | May also be purchased for 1 Wood,  |
+            | 1 Steel, and 1 Stone.              |
+      Snark | There's gold in them there hills!  |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
+       Name | Gold Mine                          |
+        Qty | 2                                  |
        Wood |                                    |
       Steel |                                    |
       Stone |                                    |
@@ -1089,22 +1089,7 @@ Description | May also be purchased for 1 Wood,  |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Necklace                           |
-        Qty | 2                                  |
-       Wood |                                    |
-      Steel |                                    |
-      Stone |                                    |
-       Gold | 3                                  |
-         VP | 4                                  |
-      VPAdj | -1                                 |
-   GameIcon | gem-necklace                       |
-       Type | gold path                          |
-      AtEnd |                                    |
-Description | May be be purchased for 2 Gold     |
-      Snark | A good deal, indeed.               |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Necklace                           |
-        Qty | 2                                  |
+        Qty | 1                                  |
        Wood |                                    |
       Steel |                                    |
       Stone |                                    |
@@ -1181,22 +1166,6 @@ Description | You may keep 2 Resources until the |
       Snark | Out of my way!                     |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Barrel                             |
-        Qty | 1                                  |
-       Wood | 2                                  |
-      Steel | 2                                  |
-      Stone |                                    |
-       Gold |                                    |
-         VP | 5                                  |
-      VPAdj |                                    |
-   GameIcon | barrel                             |
-       Type | keep                               |
-      AtEnd |                                    |
-Description | You may keep 3 Resources until the |
-            |  next turn                         |
-      Snark | Also great for scaring people.     |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Barn                               |
         Qty | 1                                  |
        Wood | 1                                  |
@@ -1233,6 +1202,22 @@ Description | *At game end, +3 VP if your deck a |
             | .                                  |
             ╰------------------------------------╯
             ╭------------------------------------╮
+       Name | Cave                               |
+        Qty | 1                                  |
+       Wood |                                    |
+      Steel |                                    |
+      Stone | 2                                  |
+       Gold |                                    |
+         VP | 4                                  |
+      VPAdj | 1                                  |
+   GameIcon | cave-entrance                      |
+       Type | big deck                           |
+      AtEnd | *                                  |
+Description | *At game end,  +3 VP if your deck  |
+            | has 10 or more cards total         |
+      Snark | Good year.                         |
+            ╰------------------------------------╯
+            ╭------------------------------------╮
        Name | Screwdriver                        |
         Qty | 1                                  |
        Wood | 2                                  |
@@ -1265,55 +1250,37 @@ Description | Save 3 Steel this turn             |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Horseshoe                          |
-        Qty | 2                                  |
+        Qty | 1                                  |
        Wood |                                    |
       Steel | 3                                  |
       Stone |                                    |
        Gold |                                    |
-         VP | 4                                  |
-      VPAdj |                                    |
+         VP | 3                                  |
+      VPAdj | -1                                 |
    GameIcon | horseshoe                          |
        Type | steel path                         |
       AtEnd |                                    |
-Description | May be purchased for 2 Steel or 3  |
-            | Wood                               |
+Description | May be purchased for 3 Wood        |
       Snark | Gesundheit.                        |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Horseshoe                          |
-        Qty | 2                                  |
+       Name | Steeltoe Boots                     |
+        Qty | 1                                  |
        Wood |                                    |
-      Steel | 3                                  |
-      Stone |                                    |
+      Steel | 2                                  |
+      Stone | 1                                  |
        Gold |                                    |
-         VP | 4                                  |
-      VPAdj |                                    |
-   GameIcon | horseshoe                          |
+         VP | 5                                  |
+      VPAdj | 1                                  |
+   GameIcon | steeltoe-boots                     |
        Type | steel path                         |
       AtEnd |                                    |
-Description | May be purchased for 2 Steel or 3  |
-            | Wood                               |
-      Snark | Gesundheit.                        |
+Description | May be purchased for 2 Stone       |
+      Snark |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Anvil                              |
-        Qty | 2                                  |
-       Wood |                                    |
-      Steel | 4                                  |
-      Stone |                                    |
-       Gold |                                    |
-         VP | 6                                  |
-      VPAdj |                                    |
-   GameIcon | anvil                              |
-       Type | steel path                         |
-      AtEnd |                                    |
-Description | May be purchased for 3 Steel or 4  |
-            | Wood                               |
-      Snark | Watch your thumbs.                 |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Anvil                              |
-        Qty | 2                                  |
+        Qty | 1                                  |
        Wood |                                    |
       Steel | 4                                  |
       Stone |                                    |
@@ -1461,50 +1428,18 @@ Description | *At game end, +3 VP if you have tw |
             | nvent it.                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
-       Name | Stone Pile                         |
-        Qty | 2                                  |
-       Wood |                                    |
-      Steel | 2                                  |
-      Stone |                                    |
-       Gold |                                    |
-         VP | 3                                  |
-      VPAdj |                                    |
-   GameIcon | stone-pile                         |
-       Type | stone path                         |
-      AtEnd |                                    |
-Description |                                    |
-      Snark | We used the steel to collect the s |
-            | tones, duh!                        |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Stone Pile                         |
-        Qty | 2                                  |
-       Wood |                                    |
-      Steel | 2                                  |
-      Stone |                                    |
-       Gold |                                    |
-         VP | 3                                  |
-      VPAdj |                                    |
-   GameIcon | stone-pile                         |
-       Type | stone path                         |
-      AtEnd |                                    |
-Description |                                    |
-      Snark | We used the steel to collect the s |
-            | tones, duh!                        |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
        Name | Pulley System                      |
         Qty | 1                                  |
        Wood | 2                                  |
-      Steel |                                    |
-      Stone | 2                                  |
+      Steel | 3                                  |
+      Stone |                                    |
        Gold |                                    |
-         VP | 5                                  |
+         VP | 6                                  |
       VPAdj | -1                                 |
    GameIcon | pulley-hook                        |
        Type | stone path                         |
       AtEnd |                                    |
-Description | Save 1 Stone this turn             |
+Description | Save 2 Stone this turn             |
       Snark | Simple machines always come in han |
             | dy.                                |
             ╰------------------------------------╯
@@ -1567,27 +1502,10 @@ Description |                                    |
    GameIcon | stone-tower                        |
        Type | stone path                         |
       AtEnd | *                                  |
-Description | *At game end, 1 VP for every three |
-            |  cards in deck                     |
+Description | *At game end, +1 VP for every thre |
+            | e cards in your deck               |
       Snark | Obelisks and Turrets don't mix. Ju |
             | st sayin'.                         |
-            ╰------------------------------------╯
-            ╭------------------------------------╮
-       Name | Windmill                           |
-        Qty | 1                                  |
-       Wood | 2                                  |
-      Steel | 1                                  |
-      Stone |                                    |
-       Gold |                                    |
-         VP | 3                                  |
-      VPAdj | -1                                 |
-   GameIcon | windmill                           |
-       Type | build                              |
-      AtEnd |                                    |
-Description | Trash this card to build any avail |
-            | able blueprint worth 6 VP or less  |
-            | for free.                          |
-      Snark | Windmill, or windfall??            |
             ╰------------------------------------╯
             ╭------------------------------------╮
        Name | Crossbow                           |
@@ -1611,11 +1529,11 @@ Description | Trash this card to build any avail |
        Name | Robot Arm                          |
         Qty | 1                                  |
        Wood | 2                                  |
-      Steel | 2                                  |
+      Steel | 1                                  |
       Stone | 1                                  |
        Gold |                                    |
          VP | 5                                  |
-      VPAdj | -2                                 |
+      VPAdj | -1                                 |
    GameIcon | mechanical-arm                     |
        Type | build                              |
       AtEnd |                                    |
