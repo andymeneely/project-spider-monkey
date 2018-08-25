@@ -11,17 +11,21 @@ module SvgEffects
     doc.at_css('svg').add_child doc.css('path')[1].dup
 
     # Color it, no stroke
-    doc.css('path')[1]['fill'] = '#9B876C'
-    doc.css('path')[1]['fill-opacity'] = 1.0
+    doc.css('path')[1]['fill'] = '#9B876C' # solid fill
+    # doc.css('path')[1]['fill'] = 'url(#diagonalHatches)'
+    doc.css('path')[1]['fill-opacity'] = 0.0
+    doc.css('path')[1]['stroke-opacity'] = 0.0 # hide it all
     doc.css('path')[1]['stroke-width'] = 0
-    doc.css('path')[1]['stroke'] = '#9B876C'
-    doc.css('path')[1]['style'] = 'filter:url(#lapping);'
+    doc.css('path')[1]['stroke'] = '#42321b'
+    # doc.css('path')[1]['style'] = 'filter:url(#lapping);'
 
     # Make a sketchy stroke
-    doc.css('path')[2]['fill'] = '#fff'
+    # doc.css('path')[2]['fill'] = '#fff'
+    doc.css('path')[2]['fill'] = 'url(#diagonalHatches)'
     doc.css('path')[2]['fill-opacity'] = 0.0
     doc.css('path')[2]['stroke-width'] = 6
-    doc.css('path')[2]['stroke'] = '#000'
+    # doc.css('path')[2]['stroke'] = '#000'
+    doc.css('path')[2]['stroke'] = '#42321b' # blueprint white
     # doc.css('path')[1]['stroke-opacity'] = 0.7
     doc.css('path')[2]['style'] = 'filter:url(#lapping);'
 
@@ -31,7 +35,7 @@ module SvgEffects
 
   def filters
     <<-EOS
-    <defs id="defs5403">
+    <defs>
       <filter
          inkscape:label="Lapping"
          inkscape:menu="Distort"
@@ -43,14 +47,14 @@ module SvgEffects
          color-interpolation-filters="sRGB"
          id="lapping">
         <feTurbulence
-           numOctaves="3"
+           numOctaves="2"
            seed="150"
            type="fractalNoise"
            baseFrequency="0.0040000000000000001"
            result="result1"
            id="feTurbulence6110" />
         <feGaussianBlur
-           stdDeviation="2"
+           stdDeviation="1"
            result="result2"
            id="feGaussianBlur6112" />
         <feDisplacementMap
@@ -61,6 +65,31 @@ module SvgEffects
            in2="result2"
            id="feDisplacementMap6114" />
       </filter>
+      <pattern
+        id="diagonalHatches"
+        patternTransform="translate(0,0) scale(5,5)"
+        height="4"
+        width="4"
+        patternUnits="userSpaceOnUse">
+        <line
+          x1="-1"
+          y1="0"
+          x2="0"
+          y2="-1"
+          style="stroke:#28221b;stroke-width:0.25" />
+        <line
+          x1="0"
+          y1="3"
+          x2="3"
+          y2="0"
+          style="stroke:#28221b;stroke-width:0.25" />
+        <line
+          x1="2"
+          y1="5"
+          x2="7"
+          y2="0"
+          style="stroke:#28221b;stroke-width:0.25" />
+       </pattern>
     </defs>
     EOS
   end

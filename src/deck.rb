@@ -12,8 +12,10 @@ mode = ENV['pallete'] # bw or color
 case mode
 when 'color'
   fg = '#28221b' # dark
-  # bg = '#FFDCAA' # light tan
-  bg = '#DDD2C3' # light gray
+  # fg = '#cfcfcf' # blueprint white
+  bg = '#FFDCAA' # light tan
+  # bg = '#DDD2C3' # light gray
+  # bg = '#002bb1' # blueprint blue
 
   pallete = {
     'Wood' => '#553200',
@@ -63,9 +65,10 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   end
 
   group :color do
-    png file: 'color/grid.png', blend: 'multiply', width: 300, height: :scale,
-        x: 400, y: 200
+    # png file: 'color/grid.png', blend: 'multiply', width: 300, height: :scale,
+    #     x: 400, y: 200
     svg layout: 'art', data: data['GameIcon'].map { |gi| SvgEffects.drawing(gi) }
+    png file: 'color/grit.png', alpha: 0.85 
   end
 
   text str: data['Name'], layout: 'name', color: fg
