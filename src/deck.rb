@@ -61,11 +61,13 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
 
   group :bw do
     load_bw_art_icons data['GameIcon']
-    svg layout: 'art', file: data['GameIcon'].map { |art| "bw/art_#{art}.svg" }
+    svg layout: 'art',
+        file: data['GameIcon'].map { |art| "bw/art_#{art}.svg" }
   end
 
   group :color do
-    svg layout: 'art', data: data['GameIcon'].map { |gi| SvgEffects.drawing(gi) }
+    svg layout: 'art',
+        data: data['GameIcon'].map { |gi| SvgEffects.drawing(gi) }
   end
 
   text str: data['Name'], layout: 'name', color: fg
@@ -82,6 +84,19 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   svg layout: :vp
   text str: data['VP'], layout: 'vp', color: bg
 
+  rect layout: :bonus,
+       stroke_width: 10, stroke_color: :black, radius: 20
+  # svg layout: data['TypeDesc']
+  y_coords = {
+    build: 740,
+    play: 790,
+    score: 840
+  }
+  svg layout: :bonus_type,
+      file: data['TypeDesc'].map { |t| "#{t}.svg" unless t.nil? }
+      # ,
+      # y: data['TypeDesc'].map { |t| y_coords[t] }
+
   text(str: data['Description'], layout: :bonus_text) do |embed|
     %w(Wood Steel Stone Gold).each do |res|
       embed.svg key: res, file: "img/#{mode}/resource_embed_#{res.downcase}.svg", dy: -5, width: 52, height: :scale
@@ -89,9 +104,6 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   end
 
   text str: data['AtEnd'], layout: :at_game_end, color: bg
-
-  # rect range: data['Description'].non_nil_indices, layout: :bonus
-  # rect range: data['Description'].non_nil_indices, layout: :bonus_icon
 
   text str: data['Snark'], layout: 'snark', alpha: 0.75
 

@@ -25,39 +25,39 @@ wood_rect:
 
 steel_amt:
   extends: wood_amt
-  y: += 175
+  y: += 125
 steel_icon:
   extends: wood_icon
-  y: += 175
+  y: += 125
 steel_rect:
   extends: wood_rect
-  y: += 175
+  y: += 125
 
 stone_amt:
   extends: steel_amt
-  y: += 175
+  y: += 125
 stone_icon:
   extends: steel_icon
-  y: += 175
+  y: += 125
 stone_rect:
   extends: steel_rect
-  y: += 175
+  y: += 125
 
 gold_amt:
   extends: stone_amt
-  y: += 175
+  y: += 125
 gold_icon:
   extends: stone_icon
-  y: += 175
+  y: += 125
 gold_rect:
   extends: stone_rect
-  y: += 175
+  y: += 125
 
 vp:
   file: vp.svg
   extends: wood_amt
-  x: 650
-  y: 720
+  x: 75
+  y: 950
   width: 100
   height: 100
   font_size: 15
@@ -77,25 +77,31 @@ art:
   height: 425
 
 bonus:
-  x: 75
-  y: 850
-  width: 675
-  height: 150
+  x: 190
+  y: 725
+  width: 550
+  height: 250
   font: Times New Roman,Serif 10
   align: center
   valign: middle
 bonus_text:
   extends: bonus
-  x: 75
-  width: 675
+  x: 200
+  width: 535
 bonus_icon:
   extends: bonus
   width: 150
 
+bonus_type:
+  x: 110
+  y: 740
+  width: 75
+  height: 75
+
 at_game_end:
   font: Sans Bold 9
-  x: 720
-  y: 730
+  x: 145
+  y: 955
   width: 50
   height: 50
 

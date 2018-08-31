@@ -10,6 +10,7 @@
    GameIcon | log                                |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Building must start somewhere.     |
             ╰------------------------------------╯
@@ -25,6 +26,7 @@ Description |                                    |
    GameIcon | log                                |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Building must start somewhere.     |
             ╰------------------------------------╯
@@ -40,6 +42,7 @@ Description |                                    |
    GameIcon | log                                |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Building must start somewhere.     |
             ╰------------------------------------╯
@@ -55,6 +58,7 @@ Description |                                    |
    GameIcon | log                                |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Building must start somewhere.     |
             ╰------------------------------------╯
@@ -70,6 +74,7 @@ Description |                                    |
    GameIcon | log                                |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Building must start somewhere.     |
             ╰------------------------------------╯
@@ -85,6 +90,7 @@ Description |                                    |
    GameIcon | log                                |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Building must start somewhere.     |
             ╰------------------------------------╯
@@ -100,6 +106,7 @@ Description |                                    |
    GameIcon | log                                |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Building must start somewhere.     |
             ╰------------------------------------╯
@@ -115,6 +122,7 @@ Description |                                    |
    GameIcon | log                                |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Building must start somewhere.     |
             ╰------------------------------------╯
@@ -130,6 +138,7 @@ Description |                                    |
    GameIcon | wood-pile                          |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Let's get started.                 |
             ╰------------------------------------╯
@@ -145,6 +154,7 @@ Description |                                    |
    GameIcon | wood-pile                          |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Let's get started.                 |
             ╰------------------------------------╯
@@ -160,6 +170,7 @@ Description |                                    |
    GameIcon | wood-pile                          |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Let's get started.                 |
             ╰------------------------------------╯
@@ -175,6 +186,7 @@ Description |                                    |
    GameIcon | wood-pile                          |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Let's get started.                 |
             ╰------------------------------------╯
@@ -190,6 +202,7 @@ Description |                                    |
    GameIcon | wood-pile                          |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Let's get started.                 |
             ╰------------------------------------╯
@@ -205,6 +218,7 @@ Description |                                    |
    GameIcon | wood-pile                          |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Let's get started.                 |
             ╰------------------------------------╯
@@ -220,6 +234,7 @@ Description |                                    |
    GameIcon | wood-pile                          |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Let's get started.                 |
             ╰------------------------------------╯
@@ -235,6 +250,7 @@ Description |                                    |
    GameIcon | wood-pile                          |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Let's get started.                 |
             ╰------------------------------------╯
@@ -250,6 +266,7 @@ Description |                                    |
    GameIcon | gears                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Lest we forget, steampunk is a fan |
             | tasy.                              |
@@ -266,6 +283,7 @@ Description |                                    |
    GameIcon | gears                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Lest we forget, steampunk is a fan |
             | tasy.                              |
@@ -282,6 +300,7 @@ Description |                                    |
    GameIcon | gears                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Lest we forget, steampunk is a fan |
             | tasy.                              |
@@ -298,6 +317,7 @@ Description |                                    |
    GameIcon | gears                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Lest we forget, steampunk is a fan |
             | tasy.                              |
@@ -314,6 +334,7 @@ Description |                                    |
    GameIcon | nails                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Just don't get tetanus.            |
             ╰------------------------------------╯
@@ -329,6 +350,7 @@ Description |                                    |
    GameIcon | nails                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Just don't get tetanus.            |
             ╰------------------------------------╯
@@ -344,6 +366,7 @@ Description |                                    |
    GameIcon | nails                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Just don't get tetanus.            |
             ╰------------------------------------╯
@@ -359,6 +382,7 @@ Description |                                    |
    GameIcon | nails                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Just don't get tetanus.            |
             ╰------------------------------------╯
@@ -374,6 +398,7 @@ Description |                                    |
    GameIcon | nails                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Just don't get tetanus.            |
             ╰------------------------------------╯
@@ -389,6 +414,7 @@ Description |                                    |
    GameIcon | nails                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Just don't get tetanus.            |
             ╰------------------------------------╯
@@ -404,6 +430,7 @@ Description |                                    |
    GameIcon | nails                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Just don't get tetanus.            |
             ╰------------------------------------╯
@@ -419,6 +446,7 @@ Description |                                    |
    GameIcon | nails                              |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Just don't get tetanus.            |
             ╰------------------------------------╯
@@ -434,6 +462,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -449,6 +478,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -464,6 +494,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -479,6 +510,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -494,6 +526,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -509,6 +542,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -524,6 +558,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -539,6 +574,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -554,6 +590,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -569,6 +606,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -584,6 +622,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -599,6 +638,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -614,6 +654,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -629,6 +670,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -644,6 +686,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -659,6 +702,7 @@ Description |                                    |
    GameIcon | stone-block                        |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Build it strong, build it right.   |
             ╰------------------------------------╯
@@ -674,6 +718,7 @@ Description |                                    |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -690,6 +735,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -706,6 +752,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -722,6 +769,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -738,6 +786,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -754,6 +803,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -770,6 +820,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -786,6 +837,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -802,6 +854,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -818,6 +871,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -834,6 +888,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -850,6 +905,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | gold-bar                           |
        Type | 0 starter                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description | May also be used for any 1 Resourc |
             | e.                                 |
       Snark | Behold the power of purchase.      |
@@ -866,6 +922,7 @@ Description | May also be used for any 1 Resourc |
    GameIcon | stone-throne                       |
        Type | ancient                            |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, gain 2/5 VP if you h |
             | ave 2/3 Ancient artifacts (count t |
             | his bonus only once)               |
@@ -883,6 +940,7 @@ Description | *At game end, gain 2/5 VP if you h |
    GameIcon | overlord-helm                      |
        Type | ancient                            |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, gain 2/5 VP if you h |
             | ave 2/3 Ancient artifacts (count t |
             | his bonus only once)               |
@@ -901,6 +959,7 @@ Description | *At game end, gain 2/5 VP if you h |
    GameIcon | mayan-pyramid                      |
        Type | ancient                            |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, gain 2/5 VP if you h |
             | ave 2/3 Ancient artifacts (count t |
             | his bonus only once)               |
@@ -918,6 +977,7 @@ Description | *At game end, gain 2/5 VP if you h |
    GameIcon | hole-ladder                        |
        Type | draw                               |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Draw a card from your deck. If it  |
             | contains Wood, draw one more card. |
             |                                    |
@@ -935,6 +995,7 @@ Description | Draw a card from your deck. If it  |
    GameIcon | magnet                             |
        Type | draw                               |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Draw a card from your deck. If it  |
             | contains Steel, draw one more card |
             | .                                  |
@@ -953,6 +1014,7 @@ Description | Draw a card from your deck. If it  |
    GameIcon | spade                              |
        Type | draw                               |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Draw one card from your deck.      |
       Snark | Most people just call this a shove |
             | l.                                 |
@@ -969,6 +1031,7 @@ Description | Draw one card from your deck.      |
    GameIcon | spade                              |
        Type | draw                               |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Draw one card from your deck.      |
       Snark | Most people just call this a shove |
             | l.                                 |
@@ -985,6 +1048,7 @@ Description | Draw one card from your deck.      |
    GameIcon | boomerang                          |
        Type | interactive                        |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 2 Wood this turn. Pass to ano |
             | ther player of your choice at the  |
             | end of your turn.                  |
@@ -1003,6 +1067,7 @@ Description | Save 2 Wood this turn. Pass to ano |
    GameIcon | burning-meteor                     |
        Type | interactive                        |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Trash this card to trash any two c |
             | ards in any row.                   |
       Snark | Will you pull the trigger?         |
@@ -1019,6 +1084,7 @@ Description | Trash this card to trash any two c |
    GameIcon | scales                             |
        Type | gold path                          |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 1 Gold this turn              |
       Snark | Shiny things! I like shiny things. |
             |                                    |
@@ -1035,6 +1101,7 @@ Description | Save 1 Gold this turn              |
    GameIcon | key                                |
        Type | gold path                          |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 1 Gold on items made only of  |
             | Gold                               |
       Snark | Are you ready for this kind of com |
@@ -1052,6 +1119,7 @@ Description | Save 1 Gold on items made only of  |
    GameIcon | gem-pendant                        |
        Type | gold path                          |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 2 Gold this turn              |
       Snark | Snag this while you can!           |
             ╰------------------------------------╯
@@ -1067,8 +1135,9 @@ Description | Save 2 Gold this turn              |
    GameIcon | gold-mine                          |
        Type | gold path                          |
       AtEnd |                                    |
-Description | May also be purchased for 1 Wood,  |
-            | 1 Steel, and 1 Stone.              |
+   TypeDesc | build                              |
+Description | May also be built for 1 Wood, 1 St |
+            | eel, and 1 Stone.                  |
       Snark | There's gold in them there hills!  |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1083,8 +1152,9 @@ Description | May also be purchased for 1 Wood,  |
    GameIcon | gold-mine                          |
        Type | gold path                          |
       AtEnd |                                    |
-Description | May also be purchased for 1 Wood,  |
-            | 1 Steel, and 1 Stone.              |
+   TypeDesc | build                              |
+Description | May also be built for 1 Wood, 1 St |
+            | eel, and 1 Stone.                  |
       Snark | There's gold in them there hills!  |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1099,7 +1169,8 @@ Description | May also be purchased for 1 Wood,  |
    GameIcon | gem-necklace                       |
        Type | gold path                          |
       AtEnd |                                    |
-Description | May be be purchased for 2 Gold     |
+   TypeDesc | build                              |
+Description | May be be built for 2 Gold         |
       Snark | A good deal, indeed.               |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1114,7 +1185,8 @@ Description | May be be purchased for 2 Gold     |
    GameIcon | locked-chest                       |
        Type | gold path                          |
       AtEnd |                                    |
-Description | May be purchased for 3 Gold        |
+   TypeDesc | build                              |
+Description | May be built for 3 Gold            |
       Snark | My money. Stay away.               |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1129,6 +1201,7 @@ Description | May be purchased for 3 Gold        |
    GameIcon | jeweled-chalice                    |
        Type | gold path                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | A retirement plan you can drink fr |
             | om.                                |
@@ -1145,6 +1218,7 @@ Description |                                    |
    GameIcon | crown                              |
        Type | gold path                          |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Woah, this really does make my hea |
             | d heavy.                           |
@@ -1161,6 +1235,7 @@ Description |                                    |
    GameIcon | wheelbarrow                        |
        Type | keep                               |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | You may keep 2 Resources until the |
             |  next turn                         |
       Snark | Out of my way!                     |
@@ -1177,6 +1252,7 @@ Description | You may keep 2 Resources until the |
    GameIcon | barn                               |
        Type | small deck                         |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, +1 VP if your deck a |
             | nd discard has 10 or fewer cards t |
             | otal.                              |
@@ -1195,6 +1271,7 @@ Description | *At game end, +1 VP if your deck a |
    GameIcon | obelisk                            |
        Type | small deck                         |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, +3 VP if your deck a |
             | nd discard has 8 or fewer cards to |
             | tal.                               |
@@ -1213,6 +1290,7 @@ Description | *At game end, +3 VP if your deck a |
    GameIcon | cave-entrance                      |
        Type | big deck                           |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end,  +3 VP if your deck  |
             | has 10 or more cards total         |
       Snark | Good year.                         |
@@ -1229,6 +1307,7 @@ Description | *At game end,  +3 VP if your deck  |
    GameIcon | screwdriver                        |
        Type | steel path                         |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 2 Steel this turn             |
       Snark | Everyone needs one of these.       |
             ╰------------------------------------╯
@@ -1244,6 +1323,7 @@ Description | Save 2 Steel this turn             |
    GameIcon | thrown-charcoal                    |
        Type | steel path                         |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 3 Steel this turn             |
       Snark | How does smelting actually CREATE  |
             | things?                            |
@@ -1260,7 +1340,8 @@ Description | Save 3 Steel this turn             |
    GameIcon | horseshoe                          |
        Type | steel path                         |
       AtEnd |                                    |
-Description | May be purchased for 3 Wood        |
+   TypeDesc | build                              |
+Description | May be built for 3 Wood            |
       Snark | Gesundheit.                        |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1275,7 +1356,8 @@ Description | May be purchased for 3 Wood        |
    GameIcon | steeltoe-boots                     |
        Type | steel path                         |
       AtEnd |                                    |
-Description | May be purchased for 2 Stone       |
+   TypeDesc | build                              |
+Description | May be built for 2 Stone           |
       Snark |                                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1290,8 +1372,9 @@ Description | May be purchased for 2 Stone       |
    GameIcon | anvil                              |
        Type | steel path                         |
       AtEnd |                                    |
-Description | May be purchased for 3 Steel or 4  |
-            | Wood                               |
+   TypeDesc | build                              |
+Description | May be built for 3 Steel or 4 Wood |
+            |                                    |
       Snark | Watch your thumbs.                 |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1306,8 +1389,9 @@ Description | May be purchased for 3 Steel or 4  |
    GameIcon | uzi                                |
        Type | steel path                         |
       AtEnd |                                    |
-Description | May be purchased for 4 Steel or 5  |
-            | Wood                               |
+   TypeDesc | build                              |
+Description | May be built for 4 Steel or 5 Wood |
+            |                                    |
       Snark | Spray and pray.                    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1322,8 +1406,9 @@ Description | May be purchased for 4 Steel or 5  |
    GameIcon | battle-axe                         |
        Type | steel path                         |
       AtEnd |                                    |
-Description | May be purchased for 5 Steel or 6  |
-            | Wood                               |
+   TypeDesc | build                              |
+Description | May be built for 5 Steel or 6 Wood |
+            |                                    |
       Snark | And my axe.                        |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1338,6 +1423,7 @@ Description | May be purchased for 5 Steel or 6  |
    GameIcon | robot-golem                        |
        Type | steel path                         |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, +1 VP per card that  |
             | contains Steel, including this one |
             | .                                  |
@@ -1356,6 +1442,7 @@ Description | *At game end, +1 VP per card that  |
    GameIcon | stone-spear                        |
        Type | stone path                         |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 1 Stone this turn             |
       Snark | Make sure you use the pointy end.  |
             ╰------------------------------------╯
@@ -1371,6 +1458,7 @@ Description | Save 1 Stone this turn             |
    GameIcon | falling-rocks                      |
        Type | stone path                         |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 1 Stone this turn             |
       Snark | You know, most people run from roc |
             | kslides.                           |
@@ -1387,6 +1475,7 @@ Description | Save 1 Stone this turn             |
    GameIcon | mining                             |
        Type | stone path                         |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 1 Stone this turn             |
       Snark | We'll strike gold one of these day |
             | s!                                 |
@@ -1403,6 +1492,7 @@ Description | Save 1 Stone this turn             |
    GameIcon | stone-wheel                        |
        Type | stone path                         |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, +3 VP if you have tw |
             | o Stone Wheels (count this bonus o |
             | nce)                               |
@@ -1421,6 +1511,7 @@ Description | *At game end, +3 VP if you have tw |
    GameIcon | stone-wheel                        |
        Type | stone path                         |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, +3 VP if you have tw |
             | o Stone Wheels (count this bonus o |
             | nce)                               |
@@ -1439,6 +1530,7 @@ Description | *At game end, +3 VP if you have tw |
    GameIcon | pulley-hook                        |
        Type | stone path                         |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 2 Stone this turn             |
       Snark | Simple machines always come in han |
             | dy.                                |
@@ -1455,6 +1547,7 @@ Description | Save 2 Stone this turn             |
    GameIcon | stone-tablet                       |
        Type | stone path                         |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Great for historical records until |
             |  you drop them.                    |
@@ -1471,6 +1564,7 @@ Description |                                    |
    GameIcon | stone-tablet                       |
        Type | stone path                         |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Great for historical records until |
             |  you drop them.                    |
@@ -1487,6 +1581,7 @@ Description |                                    |
    GameIcon | rune-stone                         |
        Type | stone path                         |
       AtEnd |                                    |
+   TypeDesc |                                    |
 Description |                                    |
       Snark | Sorry, no magical powers here.     |
             ╰------------------------------------╯
@@ -1502,6 +1597,7 @@ Description |                                    |
    GameIcon | stone-tower                        |
        Type | stone path                         |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, +1 VP for every thre |
             | e cards in your deck               |
       Snark | Obelisks and Turrets don't mix. Ju |
@@ -1519,6 +1615,7 @@ Description | *At game end, +1 VP for every thre |
    GameIcon | crossbow                           |
        Type | build                              |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Trash this card to build any avail |
             | able blueprint worth 6 VP or less  |
             | for free.                          |
@@ -1537,6 +1634,7 @@ Description | Trash this card to build any avail |
    GameIcon | mechanical-arm                     |
        Type | build                              |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | You may build any card in any row  |
             | this turn.                         |
       Snark | The coding should be the easiest p |
@@ -1554,6 +1652,7 @@ Description | You may build any card in any row  |
    GameIcon | wood-axe                           |
        Type | wood path                          |
       AtEnd |                                    |
+   TypeDesc | play                               |
 Description | Save 2 Wood this turn              |
       Snark | It's made of stone, but for wood.  |
             ╰------------------------------------╯
@@ -1569,7 +1668,8 @@ Description | Save 2 Wood this turn              |
    GameIcon | wooden-crate                       |
        Type | wood path                          |
       AtEnd |                                    |
-Description | May be purchased for 3 Steel       |
+   TypeDesc | build                              |
+Description | May be built for 3 Steel           |
       Snark | Good for carrying stuff. If you ca |
             | n carry it.                        |
             ╰------------------------------------╯
@@ -1585,7 +1685,8 @@ Description | May be purchased for 3 Steel       |
    GameIcon | wooden-crate                       |
        Type | wood path                          |
       AtEnd |                                    |
-Description | May be purchased for 3 Steel       |
+   TypeDesc | build                              |
+Description | May be built for 3 Steel           |
       Snark | Good for carrying stuff. If you ca |
             | n carry it.                        |
             ╰------------------------------------╯
@@ -1601,8 +1702,9 @@ Description | May be purchased for 3 Steel       |
    GameIcon | wooden-crate                       |
        Type | wood path                          |
       AtEnd |                                    |
-Description | May be purchased for 4 Steel or 2  |
-            | Stone                              |
+   TypeDesc | build                              |
+Description | May be built for 4 Steel or 2 Ston |
+            | e                                  |
       Snark | Even better for carrying stuff.    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1617,8 +1719,9 @@ Description | May be purchased for 4 Steel or 2  |
    GameIcon | wooden-crate                       |
        Type | wood path                          |
       AtEnd |                                    |
-Description | May be purchased for 4 Steel or 2  |
-            | Stone                              |
+   TypeDesc | build                              |
+Description | May be built for 4 Steel or 2 Ston |
+            | e                                  |
       Snark | Even better for carrying stuff.    |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1633,8 +1736,9 @@ Description | May be purchased for 4 Steel or 2  |
    GameIcon | wooden-sign                        |
        Type | wood path                          |
       AtEnd |                                    |
-Description | May be purchased for 4 Steel or 3  |
-            | Stone                              |
+   TypeDesc | build                              |
+Description | May be built for 4 Steel or 3 Ston |
+            | e                                  |
       Snark | This way!                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1649,8 +1753,9 @@ Description | May be purchased for 4 Steel or 3  |
    GameIcon | wooden-sign                        |
        Type | wood path                          |
       AtEnd |                                    |
-Description | May be purchased for 4 Steel or 3  |
-            | Stone                              |
+   TypeDesc | build                              |
+Description | May be built for 4 Steel or 3 Ston |
+            | e                                  |
       Snark | This way!                          |
             ╰------------------------------------╯
             ╭------------------------------------╮
@@ -1665,6 +1770,7 @@ Description | May be purchased for 4 Steel or 3  |
    GameIcon | wizard-staff                       |
        Type | wood path                          |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, +2 VP if deck contai |
             | ns 4 Wood besides this card.       |
       Snark | Wizards have expensive taste.      |
@@ -1681,6 +1787,7 @@ Description | *At game end, +2 VP if deck contai |
    GameIcon | galleon                            |
        Type | wood path                          |
       AtEnd | *                                  |
+   TypeDesc | score                              |
 Description | *At game end, +1 VP per Wood in an |
             | y cards except this one.           |
       Snark | The wood cost is just an estimate. |
