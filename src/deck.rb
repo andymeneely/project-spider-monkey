@@ -65,10 +65,7 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
   end
 
   group :color do
-    # png file: 'color/grid.png', blend: 'multiply', width: 300, height: :scale,
-    #     x: 400, y: 200
     svg layout: 'art', data: data['GameIcon'].map { |gi| SvgEffects.drawing(gi) }
-    png file: 'color/grit.png', alpha: 0.85 
   end
 
   text str: data['Name'], layout: 'name', color: fg
