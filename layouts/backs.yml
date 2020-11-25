@@ -1,0 +1,14 @@
+name:
+  font: Archistico,Montserrat Black,Sans Bold 22
+  align: center
+  x: 2c
+  y: middle - 4c
+  width: deck - 4c
+  height: 4c
+  ellipsize: autoscale
+
+stage:
+  width: 4c
+  height: 4c
+  x: middle - 2c
+  y: middle + 4c

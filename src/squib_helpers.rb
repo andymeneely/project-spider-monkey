@@ -7,10 +7,9 @@ def version
 end
 
 # Generates a JSON output from deck for easy Git tracking.
-def save_plaintext(data, file: 'data/deck.txt')
-  File.open(file,"w+") do |f|
-    f.write(data.to_pretty_text)
-  end
+def save_plaintext(data, file_txt: 'data/deck.txt', file_json: 'data/deck.json')
+  File.open(file_txt,"w+") { |f| f.write(data.to_pretty_text) }
+  File.open(file_json,"w+") { |f| f.write(data.to_json) }
 end
 
 # Return the range of cards that changed since the given commit

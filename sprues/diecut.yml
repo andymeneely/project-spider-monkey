@@ -1,0 +1,14 @@
+---
+sheet_width: 8.5in
+sheet_height: 11in
+card_width: 2.75in
+card_height: 3.75in
+cards:
+- x: 0.125in
+  y: 0.0in
+- x: 2.875in
+  y: 0.0in
+- x: 5.625in
+  y: 0.0in
+- x: 0.125in
+  y: 3.75in

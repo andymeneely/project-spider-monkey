@@ -36,11 +36,13 @@ Divide the Starter cards among the players equally. each player gets the followi
 * 4 *A Stone* cards
 * 3 *A Gold Bar* cards
 
+Set aside one *A Gold Stack* card for each player. This will go into the deck.
+
 Put any unused Starter cards back in the box.
 
 Each player shuffles their Starter cards face down and places on the table in front of them. This is your **Player Deck**. Also, each player will have a **Discard Pile** (initially empty).
 
-Shuffle the Early Cards and Late Cards separately and face down. Place the Late Cards face down on the table first, then the Early Cards. This is the **Draw Deck**.
+**Assemble The Deck**. Shuffle the Early Cards and Late Cards separately and face down. Place the Late Cards face down on the table first, then place the *Gold Stack* cards horizontally so that they stick out, then the Early Cards. This is the **Draw Deck**.
 
 Draw the first 15 cards face-up from the Draw Deck and place them in a grid with 5 columns and 3 rows. Keep the Draw Deck near the top of the grid, and all cards facing the same direction. Cards along the bottom row are called the **Purchase Row**, and should be close enough for all players to read easily.
 
@@ -85,6 +87,8 @@ Also, you will encounter the following Descriptions:
 
   * *At game end...* - the card is not invoked until the game ends
   * *Upon purchase...* - the card is invoked immediately when it is purchased instead of when it is played
+
+When the **Gold Stack** cards are reached, distribute one to each player's discard pile.
 
 The game ends when one column becomes empty and the Main Deck is exhausted.
 

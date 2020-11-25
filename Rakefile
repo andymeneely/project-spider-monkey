@@ -8,10 +8,10 @@ require_relative 'src/version'
 CLEAN.include('_output/*').exclude('_output/gitkeep.txt')
 
 desc 'Build black-and-white only'
-task default: [:bw]
+task default: [:bw, :backs]
 
 desc 'Build both bw and color'
-task all: [:with_pdf, :bw, :color]
+task all: [:with_pdf, :bw, :color, :backs]
 
 desc 'Build black-and-white only'
 task :bw do
@@ -24,6 +24,7 @@ desc 'Build the color version only'
 task color: :recolor do
   puts "=== Building color deck ==="
   ENV['pallete'] = 'color'
+  Squib.enable_build_globally :color
   load 'src/deck.rb'
 end
 
@@ -32,6 +33,9 @@ task :recolor do
   load 'src/recolor_icons.rb'
 end
 
+desc 'Build the deck backs'
+task(:backs) { load 'src/backs.rb'}
+
 desc 'Rebuild the badge SVG for the version number'
 task :badge do
   build_number = '%03d' % SpiderMonkey::VERSION
@@ -39,6 +43,7 @@ task :badge do
   svg = ERB.new(File.read('src/build-badge.svg.erb')).result(binding)
   File.open('build-badge.svg', 'w+') { |f| f.write(svg) }
 end
+
 
 desc 'Enable PDF build'
 task :with_pdf do

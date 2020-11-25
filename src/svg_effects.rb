@@ -28,7 +28,6 @@ module SvgEffects
     doc.css('path')[2]['stroke'] = '#42321b' # blueprint white
     # doc.css('path')[1]['stroke-opacity'] = 0.7
     doc.css('path')[2]['style'] = 'filter:url(#lapping);'
-
     return doc.to_xml
   end
   module_function :drawing

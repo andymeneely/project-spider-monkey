@@ -5,7 +5,6 @@ require_relative 'squib_helpers'
 require_relative 'version'
 require_relative 'refinements'
 require_relative 'svg_effects'
-require_relative 'build_groups'
 using Squib::Refinements
 
 mode = ENV['pallete'] # bw or color
@@ -45,27 +44,20 @@ end
 
 data = Squib.xlsx file: 'data/deck.xlsx'
 id = data['Name'].index_lookups
+n = data.nrows
+save_plaintext data
 
-Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
+Squib::Deck.new(cards: n) do
+  use_layout file: 'layouts/deck.yml'
   background color: bg
 
-  enable_group :bw if mode == 'bw'
-  enable_group :color if mode == 'color'
-  # enable_group :sheets
-  # enable_group :test_cases
-  enable_group :singles
-  enable_group :hands
-  enable_group :showcase
-  enable_group :pdfs
-  # enable_group :proof
-
-  group :bw do
+  build :bw do
     load_bw_art_icons data['GameIcon']
     svg layout: 'art',
         file: data['GameIcon'].map { |art| "bw/art_#{art}.svg" }
   end
 
-  group :color do
+  build :color do
     svg layout: 'art',
         data: data['GameIcon'].map { |gi| SvgEffects.drawing(gi) }
   end
@@ -83,19 +75,13 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
 
   svg layout: :vp
   text str: data['VP'], layout: 'vp', color: bg
+  svg layout: :stage, file: data.stage.map { |s| "stage_#{s}.svg"}
 
   rect layout: :bonus,
-       stroke_width: 10, stroke_color: :black, radius: 20
-  # svg layout: data['TypeDesc']
-  y_coords = {
-    build: 740,
-    play: 790,
-    score: 840
-  }
+       stroke_width: 5, stroke_color: :black, radius: 20,
+       range: (0..n-1).reject { |i| data.description[i].to_s.empty? }
   svg layout: :bonus_type,
       file: data['TypeDesc'].map { |t| "#{t}.svg" unless t.nil? }
-      # ,
-      # y: data['TypeDesc'].map { |t| y_coords[t] }
 
   text(str: data['Description'], layout: :bonus_text) do |embed|
     %w(Wood Steel Stone Gold).each do |res|
@@ -105,41 +91,30 @@ Squib::Deck.new(cards: data['Name'].size, layout: 'layout.yml') do
 
   text str: data['AtEnd'], layout: :at_game_end, color: bg
 
-  text str: data['Snark'], layout: 'snark', alpha: 0.75
+  text str: data['Snark'], layout: 'snark'
 
-  group(:proof) { png file: 'tgc-proof-overlay.png' }
+  build(:proof) { png file: 'tgc-proof-overlay.png' }
 
-  group :singles do
-    save prefix: "card_#{mode}_#{version}_", format: :png
-  end
+  save prefix: "card_", format: :png
+  save_sheet prefix: 'sheet_deck_', columns: 5, rows: 5
+  cut_zone
+  save_pdf file: 'diecut_fronts.pdf'
 
-  group :test_cases do
-    save_png prefix: "card_#{mode}_#{version}_", range: id['Obelisk']
-    save_png prefix: "card_#{mode}_#{version}_", range: id['Robot Golem']
-    save_png prefix: "card_#{mode}_#{version}_", range: id['Battle Axe']
-    save_png prefix: "card_#{mode}_#{version}_", range: id['Spear']
-    save_png prefix: "card_#{mode}_#{version}_", range: id['Anvil']
-  end
-
-  # save_png
-
-  save_plaintext data, file: "data/deck.txt"
-
-  group :showcase do
+  build :showcase do
     showcase range: [id['Robot Golem'], id['Battle Axe']], fill_color: :black, trim: 37.5
   end
 
   rect layout: 'cut_line'
 
-  group :pdfs do
+  build :pdfs do
     save_pdf dir: "builds", file: "deck_#{mode}_#{version}.pdf", trim: 37.5
   end
 
-  group :changed do
+  build :changed do
     save_sheet range: whats_changed, prefix: 'whats_changed_'
   end
 
-  group :hands do
+  build :hands do
     rect layout: 'outline'
     20.times do |i|
       random_5 = (0..size-1).to_a.sample(5).sort
