@@ -134,9 +134,9 @@ Description | Maybe also be used for any 2 Resou |
       Stage | late                               |
       AtEnd | *                                  |
    TypeDesc | score                              |
-Description | *At game end, gain 2/5 VP if you h |
-            | ave 2/3 Ancient artifacts (count t |
-            | his bonus only once)               |
+Description | *At game end, +2/+5 VP if you have |
+            |  2/3 Ancient artifacts (count this |
+            |  bonus only once)                  |
       Snark | Great for making decrees.          |
             ╰------------------------------------╯
             ╭------------------------------------╮
